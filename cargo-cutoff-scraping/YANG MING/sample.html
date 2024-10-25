@@ -1,0 +1,1702 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="Yang Ming Marine Transport Corporation (Yang Ming) have observed our core value of &#39;Teamwork, Innovation, Honesty and Pragmatism&#39; in enhancing our transportation expertise and service quality.&lt;br/>陽明海運股份有限公司全球員工秉持”團隊、創新、誠信、務實”之價值理念，專注於全球化與精緻化的海運運輸經營，不僅以”準、快、穩、省”四大準則提供優良服務，在營運績效及策略上，透過與世界其他知名船公司聯營合作，發揮全球營運資源整合效能，使得業績持續穩健成長，成為全球名列前茅的海運公司。" /><meta http-equiv='X-UA-Compatible' content ='IE=edge' /> <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+    <!-- Bootstrap -->
+    <link href="../../Content/Img/favorite_202407.ico" rel="Shortcut Icon" />
+    <link href="/Content/Css/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/Css/bootstrap-theme.css" rel="stylesheet" />
+
+    
+    <link href="/Content/Css/layout.css?ver=20230517" rel="stylesheet" />
+    
+
+    <link href="/Content/Css/Index.css?ver=20220829" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if IE 8]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="/Scripts/respond.js"></script>
+    <![endif]-->
+    <script src="/Scripts/jquery-3.6.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/Scripts/jquery-validation/My97DatePicker/WdatePicker.js"
+        charset="utf-8"></script>
+    <script src="/Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.hoverIntent.minified.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-menulink.js" type="text/javascript"></script>
+    
+    <script src="/Scripts/verge.min.js" type="text/javascript"></script>
+    <script src="/Scripts/rwdaddon.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.blockUI.js" type="text/javascript"></script>
+    <title>
+	YangMing Marine Transport Corp.
+</title>
+    <script src="/Scripts/cookieconsent.min.js"></script>
+    <script src="/Scripts/purify.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const safeChatBotGreetings = DOMPurify.sanitize($("#hfChatBotGreetings").val().trim());
+            const safeChatBotURL = DOMPurify.sanitize($("#hfChatBotUrl").val().trim());
+
+            var divControl1 = document.getElementById("index_footer_rwd");
+            if (divControl1) divControl1.innerHTML = "<div class=\"chatbot-outer\" title=\"" + safeChatBotGreetings + "\"><a class=\"chatbot\" href=\"" + safeChatBotURL + "\" target=\"_blank\"><img style='width:60px; height:60px;' src=\"/Content/Img/CaptainYang.png\"></a></div>" + divControl1.innerHTML;
+            var divControl2 = document.getElementById("footer");
+            if (divControl2) divControl2.innerHTML = "<div class=\"chatbot-outer\" title=\"" + safeChatBotGreetings + "\"><a class=\"chatbot\" href=\"" + safeChatBotURL + "\" target=\"_blank\"><img style='width:60px; height:60px;' src=\"/Content/Img/CaptainYang.png\"></a></div>" + divControl2.innerHTML;
+        });
+
+        function isValidEmail(email) {
+            const regex = /^(("")("".+?""@)|(([0-9a-zA-Z]((\.(?!\.))|[-!#\$%&'\*\+/=\?\^`\{\}\|~\w])*)@))((\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]*\.)+[a-zA-Z0-9][\-a-zA-Z0-9]{0,22}[a-zA-Z]))$/;
+            var IsValidFlag = true;
+
+            if (email.indexOf(";", 0) >= 1) //多筆email
+            {
+                email = email.trimEnd(';');
+                var emailArray = email.split(';');
+                emailArray.forEach(function (tmp) {
+                    if (!tmp.trim() == "") {
+                        if (regex.test(String(tmp.trim())) == false)
+                            IsValidFlag = false;
+                    }
+                });
+            }
+            else //一個email
+            {
+                IsValidFlag = regex.test(String(email.trim()));
+            }
+
+            return IsValidFlag;
+        }
+
+        function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+        }
+
+        function getCookie(name)//取cookies函数        
+        {
+            var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+            if (arr != null) return unescape(arr[2]); return null;
+
+        }
+
+        if (inIframe() || getCookie("APP") == "Y") {
+
+        } else {
+            window.addEventListener("load", function () {
+                window.cookieconsent.initialise({
+                    "palette": {
+                        "popup": {
+                            "background": "#F2F2F2"
+                        },
+                        "button": {
+                            "background": "transparent",
+                            "text": "#666666",
+                            "border": "#BBBCBC"
+                        },
+                        "revokable": true
+                    },
+                    "content": {
+                        "message": 'This Website uses necessary cookies to collect data in order to enable core functionality, including security and network management. If you continue without changing your settings, we will deem this as your consent to receive these cookies. To find out more about the cookies we use, see our Privacy Policy.',
+                        "dismiss": 'Agree',
+                        "link": 'Check YM’s Privacy Policy',
+                        "target": "_self",
+                        "href": '/PrivacyPolicy.aspx'
+                    }
+                })
+            });
+        }
+    </script>
+
+    <script type="text/cjs">
+       // document.domain = "yangming.com";
+    </script>
+    <script type='text/javascript'>
+        document.domain = "yangming.com";
+        (function ($) {
+            $(document).ready(function () {
+                $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    $(this).parent().siblings().removeClass('open');
+                    $(this).parent().toggleClass('open');
+                });
+            });
+        })(jQuery);
+
+        function login(act) {
+            if (act == "login") {
+                window.location.href = '/e-service/member_area/member_login.aspx';
+
+            }
+            if (act == "logout") {
+                window.location.href = '/e-service/member_area/member_login_index.aspx?h_Sign=Logout';
+            }
+        }
+
+
+        function switching() {
+            if (getCookie("page_ver") == null) {
+                SetCookie("page_ver", "PC");
+            }
+            else {
+                delCookie("page_ver");
+            }
+            window.location.href = '/index.aspx';
+        }
+        function SetCookie(name, value)//两个参数，一个是cookie的名子，一个是值
+        {
+            var Days = 1; //此 cookie 将被保存 30 天
+            var exp = new Date();    //new Date("December 31, 9998");
+            exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+            document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();
+        }
+        function getCookie(name)//取cookies函数        
+        {
+            var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+            if (arr != null) return unescape(arr[2]); return null;
+
+        }
+        function delCookie(name)//删除cookie
+        {
+            var exp = new Date();
+            exp.setTime(exp.getTime() - 1);
+            var cval = getCookie(name);
+            if (cval != null) document.cookie = name + "=" + cval + ";expires=" + exp.toGMTString();
+        }
+
+        //check 是否under iframe
+        var isInIFrame = (self != top);
+        $('#hfIsInIframe').val(isInIFrame);
+
+    </script>
+    <style type="text/css">
+        #divhead {
+            height: 110px;
+        }
+
+        .DropDownListCss {
+            border: 1px thin blue;
+            border-radius: 3px;
+            color: ButtonText;
+            font-size: 12px;
+            padding: 2px;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url('/Content/Img/ddlbtn.bmp');
+            background-position: 160px;
+            background-repeat: no-repeat;
+            cursor: pointer;
+        }
+
+        #header_rwd {
+            margin-right: 0px;
+        }
+    </style>
+
+    
+    <link href="/Content/Css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Css/dataTables.fixedColumns.min.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/Css/shCore.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jquery.dataTables.min.js" type="text/javascript"></script>
+    <script src="/Scripts/dataTables.fixedColumns.min.js" type="text/javascript"></script>
+    <script src="/Scripts/shCore.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        function openMAIL(strUrl) {
+            location.href = strUrl;
+        }
+
+        $(document).ready(function () {
+            //unblockyu();
+            document.getElementsByTagName("body")[0].style = 'padding-bottom:500px';
+        });
+
+        /*$(document).on({
+            mouseover: function () {
+                var rowSeq = this.id.substr(12);
+                $("#Schedule_Tr_sub_" + rowSeq).stop().show();
+            },
+            mouseout: function () {
+                var rowSeq = this.id.substr(12);
+                $("#Schedule_Tr_sub_" + rowSeq).stop().hide();
+            }
+        }, '.master');*/
+
+        function pageLoad(sender, args) {
+            blockyu();
+            $.ajax({
+                type: "POST",
+                data: {
+                    RoutingType: 'BY_DATE',
+                    From: $("#ContentPlaceHolder1_hidfromLocCD").val(),
+                    To: $("#ContentPlaceHolder1_hidtoLocCD").val(),
+                    PriorityType: $("#ContentPlaceHolder1_hidPriorityType").val(),
+                    PeriodType: $("#ContentPlaceHolder1_hidPeriodType").val(),
+                    StartDate: $("#ContentPlaceHolder1_hiddate_Start").val().replace("/", "").replace("/", ""),
+                    EndDate: $("#ContentPlaceHolder1_hiddate_End").val().replace("/", "").replace("/", ""),
+                    VoyageCode: '',
+                    CaseID: '',
+                    FromTerm: $("#ContentPlaceHolder1_hidFromServiceTerm").val(),
+                    ToTerm: $("#ContentPlaceHolder1_hidToServiceTerm").val(),
+                    fromHome: $("#ContentPlaceHolder1_hidFromHome").val(),
+                    FromTxt: $("#ContentPlaceHolder1_hidFrom_txt").val().replace("&#39;","'"),
+                    ToTxt: $("#ContentPlaceHolder1_hidTo_txt").val().replace("&#39;","'"),
+                    Version: $("#ContentPlaceHolder1_hidVersion").val(),
+                    ST: $("#ContentPlaceHolder1_hidST").val(),
+                },
+                url: "VesselRouting.ashx",
+                dataType: "json",
+                crossDomain: false,
+                success: function (data) {
+                    var resultJson = $.parseJSON(data);
+
+                    const safeHtml1 = DOMPurify.sanitize(resultJson.result, {
+                        ALLOWED_TAGS: ['table', 'tbody', 'thead', 'th', 'tr', 'td', 'br', 'span', 'b', 'i', 'u', 'label', 'input', 'div', 'select', 'option', 'a'],
+                        ALLOWED_ATTR: ['href', 'src', 'rel', 'type', 'style', 'rowspan', 'colspan', 'class', 'id', 'name', 'value', 'onclick', 'onchange', 'onmouseenter', 'onmouseleave', 'disabled', 'border', 'title', 'target'],
+                        RETURN_DOM: true,
+                        FORCE_BODY: false
+                    });
+
+                    $("#divCargoDateSchedule").append(safeHtml1.innerHTML);
+                    unblockyu();
+                },
+                error: function (error) {
+                    alert("Error Vessel Ajax not working: " + error);
+                }
+            });
+        }
+
+        function showScheduleDetail(obj) {
+            var objID = obj.id;
+            var rowSeq;
+
+            rowSeq = obj.id.substr(15);
+
+            //alert(rowSeq);
+            var status = $("#" + objID).val();
+
+            if (status == "Details") {
+                $("#" + objID).val("Close");
+                $("#Schedule_Tr_sub_" + rowSeq).css("display", "");
+            }
+            else {
+                $("#" + objID).val("Details");
+                $("#Schedule_Tr_sub_" + rowSeq).css("display", "none");
+            }
+
+            if ($("#" + objID).attr('class') == 'lock') {
+                $("#" + objID).removeAttr("class");
+                $("#Schedule_Tr_sub_" + rowSeq).css("display", "none");
+                $("#" + objID).parent().parent().parent().attr('onmouseenter', 'return showScheduleDetailAutoDisplayOn(this);').attr('onmouseleave', 'return showScheduleDetailAutoDisplayOff(this);');
+            }
+            else {
+                $("#" + objID).attr("class", "lock");
+                $("#" + objID).parent().parent().parent().removeAttr('onmouseenter').removeAttr('onmouseleave');
+            }
+        }
+
+        function showScheduleDetailAutoDisplayOn(obj) {
+            var objID = obj.id;
+            var rowSeq = obj.id.substr(12);
+
+            $("#Schedule_Tr_sub_" + rowSeq).css("display", "");
+
+            $("#" + objID).css('background-color', '#FFF0F5');
+        }
+
+        function showScheduleDetailAutoDisplayOff(obj) {
+            var table = document.getElementById('gvRouting');
+            var objID = obj.id;
+            var rowSeq = obj.id.substr(12);
+
+            $("#Schedule_Tr_sub_" + rowSeq).css("display", "none");
+
+            var dir = $("#ContentPlaceHolder1_hidDir").val();
+
+            var rownum = (table.rows.length - 1) / 2;
+
+            if (dir == "asc") {
+                for (j = 1; j <= rownum; j++) {
+                    var index = -2;
+                    document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[index + j * 2].cells[0].innerHTML = j;
+                    if (j % 2 == 0) {
+                        document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[index + j * 2].style.backgroundColor = "rgb(237,237,237)";
+                    } else {
+                        document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[index + j * 2].style.backgroundColor = "rgb(224,224,224)";
+                    }
+                }
+            }
+            else if (dir == "desc") {
+                for (j = rownum; j > 0; j--)//8 7 6
+                {
+                    document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[(rownum - j) * 2].cells[0].innerHTML = j;
+                    if (j % 2 == 1) {
+                        document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[(rownum - j) * 2].style.backgroundColor = "rgb(224,224,224)";
+                    } else {
+                        document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[(rownum - j) * 2].style.backgroundColor = "rgb(237,237,237)";
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        function sortTable(n) {
+            var table, rows, switching, i, j, x, y, shouldSwitch, dir, lastOrder, switchcount = 0;
+            table = document.getElementById("gvRouting");
+            switching = true;
+            // Set the sorting direction to ascending:
+            dir = $("#ContentPlaceHolder1_hidDir").val();
+            lastOrder = $("#ContentPlaceHolder1_hidLastOrder").val();
+
+            var orderTitle = ["",
+                "<span style='font-size:13px;'>" + 'Place of Receipt' + "</span><br/><span style='font-size:8px;'>" + 'ETD' + "</span>",
+                "",
+                "<span style='font-size:13px;'>" + 'Place of Delivery' + "</span><br/><span style='font-size:8px;'>" + 'ETA' + "</span>",
+                'Transit<br/>Days',
+                'Voyage<br/>Code',
+                "",
+                ""];
+
+            for (var i = 0; i <= 7; i++) {
+                if (n == i || i == 0 || i == 2 || i == 6 || i == 7) continue;
+                else {
+                    document.getElementById("gvRouting").rows[0].cells[i].innerHTML = orderTitle[i];
+                }
+            }
+
+            if (lastOrder != n) {
+                document.getElementById("gvRouting").rows[0].cells[n].innerHTML = orderTitle[n] + "▲";
+                dir = "asc";
+                $("#ContentPlaceHolder1_hidDir").val("asc");
+                lastOrder = n;
+                $("#ContentPlaceHolder1_hidLastOrder").val(n);
+            }
+            else {
+                if (dir == "asc") {
+                    document.getElementById("gvRouting").rows[0].cells[n].innerHTML = orderTitle[n] + "▼";
+                    dir = "desc";
+                    $("#ContentPlaceHolder1_hidDir").val("desc");
+                } else {
+                    document.getElementById("gvRouting").rows[0].cells[n].innerHTML = orderTitle[n] + "▲";
+                    dir = "asc";
+                    $("#ContentPlaceHolder1_hidDir").val("asc");
+                }
+
+                lastOrder = n;
+                $("#ContentPlaceHolder1_hidLastOrder").val(n);
+            }
+
+            /* Make a loop that will continue until
+            no switching has been done: */
+            while (switching) {
+                // Start by saying: no switching is done:
+                switching = false;
+                rows = table.rows;
+                /* Loop through all table rows (except the
+                first, which contains table headers): */
+                for (i = 1; i < rows.length - 1; i++) {
+                    // Start by saying there should be no switching:
+                    shouldSwitch = false;
+                    /* Get the two elements you want to compare,
+                    one from current row and one from the next: */
+                    x = rows[i].getElementsByTagName("td")[n];
+                    y = rows[i + 1].getElementsByTagName("td")[n];
+
+                    var value1 = x.innerHTML;
+                    var value2 = y.innerHTML;
+
+                    /* Check if the two rows should switch place,
+                    based on the direction, asc or desc: */
+                    if (dir == "asc") {
+                        if (isNumeric(value1) && isNumeric(value2)) {
+                            if (Number(value1) > Number(value2)) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        } else if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            // If so, mark as a switch and break the loop:
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                    else if (dir == "desc") {
+                        if (isNumeric(value1) && isNumeric(value2)) {
+                            if (Number(value1) < Number(value2)) {
+                                shouldSwitch = true;
+                                break;
+                            }
+                        } else if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            // If so, mark as a switch and break the loop:
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    /* If a switch has been marked, make the switch
+                    and mark that a switch has been done: */
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    // Each time a switch is done, increase this count by 1:
+                    switchcount++;
+                }
+                else {
+                    /* If no switching has been done AND the direction is "asc",
+                    set the direction to "desc" and run the while loop again. */
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        $("#ContentPlaceHolder1_hidDir").val("desc");
+                        switching = true;
+                    }
+                }
+            }
+
+            for (j = 1; j <= (table.rows.length - 1) / 2; j++) {
+                $('#Schedule_Tr_sub_' + j).insertAfter($('#Schedule_Tr_' + j));
+            }
+            var rownum = (table.rows.length - 1) / 2;
+            if (dir == "asc") {
+                for (j = 1; j <= rownum; j++) {
+                    var index = -2;
+                    document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[index + j * 2].cells[0].innerHTML = j;
+                }
+            }
+            else if (dir == "desc") {
+                for (j = rownum; j > 0; j--)//8 7 6
+                {
+                    document.getElementById("gvRouting").getElementsByTagName('tbody')[0].rows[(rownum - j) * 2].cells[0].innerHTML = j;
+                }
+            }
+        }
+
+        function isNumeric(n) {
+            return !isNaN(parseFloat(n)) && isFinite(n);
+        }
+    </script>
+    <style type="text/css">
+        a:hover { color: blue;  }
+
+        .auto-style1 {
+            width: 262.0pt;
+            height: 14pt;
+        }
+
+        .auto-style2 {
+            width: 356.0pt;
+            height: 10pt;
+        }
+
+        .auto-style3 {
+            width: 262.0pt;
+            height: 10pt;
+        }
+
+        .title_th {
+            color: White;
+            text-align: center;
+            border-left: 1px solid;
+            border-color: white;
+            padding: 1px;
+        }
+
+        .schedule_tbody {
+            color: black;
+            text-align: center;
+            border-left: 1px solid;
+            border-color: white;
+            height: 100%;
+            padding: 1px;
+        }
+
+        .field_odd_New {
+            background-color: #C0C0C0;
+        }
+    </style>
+
+    <!--2017/02/21 for new THE , can be removed  after new routing apply -->
+    <style type="text/css">
+        table.MsoNormalTable {
+            font-size: 10.0pt;
+            font-family: "Times New Roman","serif";
+        }
+
+        p.MsoNormal {
+            margin-bottom: .0001pt;
+            font-size: 12.0pt;
+            font-family: "Calibri","sans-serif";
+            margin-left: 0cm;
+            margin-right: 0cm;
+            margin-top: 0cm;
+        }
+    </style>
+    <!-- END 2017/02/21 for new THE -->
+</head>
+<body>
+    <form method="post" action="./PointToPointResult.aspx?localSite=" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="5Isv2HRgGdoyAUW6QsrMbO4Z29j3gpJVr7yB6UNSMxV/VOQyhGdmQzTNlZaApwSnLuLO7lBYqfQxJoNJfQVmQBlpbyHTn0nLiJ+x/mmgico=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=Z7O-ov7B7f7TAbGmP_mPcmUFtqohxFH4IqYZ8MEnaxeWmYJBo_pmsrTsicNg8Hf1nDdgRoRaPXLed1wfspEPVV7sGqNtPRryTGO2w2mtUD81&amp;t=637814941746327080" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=ao3poIdmOt8tqjg1tZkjjzjMfCgvz-MoWzASa1VykaZCpujaW3oXpoY1FzI2_Ex9JEnU0m8F6vrhMkxkAVy239mNoEWHtrgueBGzmAZjIY5U5OAHNUFka7914mOcl00xZH4ACY2ZBTgq0dNV865sfgM2X74mhGVGoDtPPSWT5pY1&amp;t=49337fe8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LKDWpJj1LskH6uvdLlDURWZ_jM_6tr7AfgxtqV8go4dA6zpkn7vxdWNhuRZ8SBfCAau3Wi8-epWhTI5LVNbXtvBj-6pjSgcxty7RPd3DP9dCm-m0jcoDXR6bczpaBxh6qc-5YZqNmw02rH_ZFvDeQGYvqnjVJkIMvqUEpJZDZz47WKskcT74ng_-0WeBxUGb0&amp;t=49337fe8" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="80BDCD06" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="VAeHwa-9oiiF1ydhkRr9i763ZQuD78D3T17XFoT7Tx8p0r5GMowOMLwgZkyuIPLOlM31WX8u-kBNjESCWouwFotAgS2JOB5xgOcVnMXyXkOr7FIUimBgPexV7MMfWltbovZ-Limr6PTiAhzx-xrMgw2" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Yh9dXPAySnizLaZFehNmNc71uUvs1n1pJnIOIyaqlS8JQ8XFnDSqroX2a1ZmqON/RSUGz5Fl0fhp5jh8/ugGr8RKzwBSBBQT9eZfbghlLoZsX5CgGkditlQcsNGWbFuPo1Bnv/8QVla++Row1p4UAfWmTKpHdnVk4/YSzIXFu0tgqX2AfuZfY41w5dzZpm2s9e8vskKVhH3OzIxfPRUJAdJnQpNvMfDeZ+qg136IcxY0oQS6/pjwgmbUjBCmzxgtC2y61hd5SyxGwFqXIUHD5cxg3dcTAvOzcD/YHKav05qexxddrJ7QEa/uvNVWZJUrfFj2nFKCn8/n7cA2Rq7gmlcwChjZ0+qwcup4Pv9eq7wG/3L3/FbqQj8+clzaNsX0KhYFwn7LIBvB6ebXER/ES2S/lwTWGvFTVqiFYXJLvl7pXtbB+ngRx7HpRNOf2lhvZWd6F/eH77RJmpiY7IeKNEBWpY7LkzYWrr6yZnWveEWochZAZshHu/aVxayY+KKc0W3iESrbAm/bPVUIY+9c3/5qGa9AF3l6fV/GXWMxkHDkPB/4rebe65mkgUFG46mO0Iq0bQgXFOgOAng1xPNVP831Wa1SqgfBD1BlHQ7NpgydhnUAumkTKFcn354fugx99jmMo+18xU8+m1K+T0khbegiixIE7NPd9AKeaOuT8lQgPm/fEXHpwetyQLxvcKSPuFlw2Io/OnY7ht5sszrn/J/tDU65J4PhiahBO4yNwqwaCowVX9i3Mr8kWUeg74SObqSJL3wNIOXQA/WgHOxd4wbjlxfPcdyiGb3wxzanrNUioM9YXdFuSywyvdKSHnphNRyOCju4ceVwY/up1SIJrVK2rIUyULsQUBqkswix0IKdjLiGkgqEgKjVoC+p/o5g6FBDMd/INBIDPB/gcO+h5QYOPsyxLuBlm3zEPRyAxPc0IZsgZca9TKPbsn/QrwiKn611B6U9lakp5ejndBmWIg==" />
+</div>
+        <input type="hidden" name="ctl00$hidButtonType" id="hidButtonType" value="0" />
+        <input type="hidden" name="ctl00$hfIsInIframe" id="hfIsInIframe" />
+        <input type="hidden" name="ctl00$hfChatBotUrl" id="hfChatBotUrl" value="https://aics.yangming.com/wise/webchat/default/?t=ZNtHsAjpKoTGDsfde9KxxA%3D%3D" />
+        <input type="hidden" name="ctl00$hfChatBotGreetings" id="hfChatBotGreetings" value="YM Chatbot,&amp;#10;How can I help you?" />
+
+        <div id="outter_wrap_rwd">
+            
+            <div id="main_wrap_rwd" class="container">
+                <div id="header_rwd">
+                    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$DefaultMasterScriptManager', 'form1', ['tctl00$ContentPlaceHolder1$UpdatePanel1','ContentPlaceHolder1_UpdatePanel1'], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+                    <div id="headera1">
+                        <div class="row">
+                            <!------Traditional Menu-------------->
+                            <div id="divhead" class="hidden-xs hidden-sm col-md-12 col-lg-12">
+                                <!------height assign------>
+                                <!------ Orignal Menu ------->
+                                <div id="header">
+                                    <a id="lnkHome" class="navbar-brand hidden-xs hidden-sm" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lnkHome&quot;, &quot;&quot;, false, &quot;&quot;, &quot;/index.aspx&quot;, false, true))" style="padding-top: 30px">
+                                        <img src="/Content/Img/logo_202407.svg" alt="" style="width: 60px;" />
+                                    </a>
+
+                                    <div id="LoginInfo" class="sayhello" style="display:none;">Hello,</div>
+                                    <div class="top-area">
+                                        <ul class="language">
+                                            <li class="global">Language
+                                                <div class="country">
+                                                    <a id="lbtus_en" href="javascript:__doPostBack(&#39;ctl00$lbtus_en&#39;,&#39;&#39;)">English</a>
+                                                    <a id="lbtzh_tw" href="javascript:__doPostBack(&#39;ctl00$lbtzh_tw&#39;,&#39;&#39;)">繁體中文</a>
+                                                    <a id="lbtzh_cn" href="javascript:__doPostBack(&#39;ctl00$lbtzh_cn&#39;,&#39;&#39;)">简体中文</a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="flex-box">
+                                            <li id="login" class="login-icon"><a href="/e-service/member_area/member_login.aspx">Login</a></li>
+                                            <li class="logout-icon" style="display: none"><a href="/e-service/member_area/member_login_index.aspx?h_Sign=Logout">Logout</a>
+                                                <div class="logbox">
+                                                    <a href="/e-service/member_area/member_login_index.aspx">
+                                                        My YM Account</a>
+                                                    <a href="/e-service/member_area/register_modify.aspx">
+                                                        Change Register</a>
+                                                    <a href="/e-service/member_area/change_password.aspx">
+                                                        Change Password</a>
+                                                    <a href="/e-service/member_area/member_management.aspx">
+                                                        Sub-user Maintenance</a>
+                                                </div>
+                                            </li>
+                                            <li id="register" class="register_icon"><a href="/e-service/member_area/register.aspx">Register</a></li>
+                                            <li class="mail_icon"><a href="/e-service/contact_us/contactus.aspx" title="Contact Us">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                    <div id="navi">
+                                        <ul id="menu">
+                                            <div id="menu_en">
+                                                <li class="logo_url"><a href="/index.aspx" title="Home">
+                                                    <img src="/Content/Img/logo_btn.gif" width="75" height="80"
+                                                        alt="" /></a></li>
+                                                <li class="menu_btn"><a href="#">
+                                                    About Us</a>
+                                                    <div class="sub" style="opacity: 0; display: none; width: 960px;">
+                                                        <div class="wrap_about">
+                                                            <dl>
+                                                                <dt>
+                                                                    Profile
+                                                                </dt>
+                                                                <dd>
+                                                                    <a href="/About_Us/Group_Profile/OverView.aspx">
+                                                                        Overview
+                                                                    </a>
+                                                                </dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/Group_Profile/TopManagement.aspx">
+                                                                        Organization & Top Management
+                                                                    </a>
+                                                                    
+                                                                </dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/Group_Profile/AwardAndCertificate.aspx">
+                                                                        Awards And Certificates
+                                                                    </a>
+                                                                </dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/Group_Profile/Chronicle.aspx">
+                                                                        Chronicle
+                                                                    </a>
+                                                                </dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/Group_Profile/Culture.aspx">
+                                                                        Culture
+                                                                    </a>
+                                                                </dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/Group_Profile/Related_Websites.aspx">
+                                                                        Related Websites
+                                                                    </a>
+                                                                </dd>
+                                                                
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>
+                                                                    ISO Management
+                                                                </dt>
+                                                                <dd>
+                                                                    <a href="/About_Us/ISO_Management/Quality_Policy.aspx">
+                                                                        Quality Management</a></dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/ISO_Management/Environment_Policy.aspx">
+                                                                        Environment Management</a></dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/ISO_Management/Information_Security_Management_system.aspx">
+                                                                        Information Security Management
+                                                                    </a></dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/ISO_Management/Safety_and_Health_Management.aspx">
+                                                                        Safety and Health Management</a></dd>
+                                                                <dd id="GreenhouseGasManagment">
+                                                                    <a href="/About_Us/ISO_Management/Greenhouse_Gas_Managment.aspx">
+                                                                        GHG Inventory Management</a></dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/ISO_Management/AntiCorruptionAndBriberyPolicy.aspx">
+                                                                        Anti-Corruption and Anti-Bribery Policy</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>
+                                                                    Security and Regulation</dt>
+                                                                <dd>
+                                                                    <a href="/About_Us/Security_Regulation/Authorized_Economic_Operator.aspx">
+                                                                        Authorized Economic Operator (AEO)</a></dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/Security_Regulation/C_TPAT.aspx">
+                                                                        C-TPAT</a></dd>
+                                                                <dd>
+                                                                    <a href="/about_us/security_regulation/Vessel_ISM_ISPS_Certificate.aspx">
+                                                                        Vessel ISM / ISPS Certificate</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>
+                                                                    Environmental Protection</dt>
+                                                                <dd>
+                                                                    <a href="/About_Us/Environment_Preservation/Environment_Performance.aspx">
+                                                                        Environment Performance</a></dd>
+                                                                <dd>
+                                                                    <a href="/about_us/Environment_Preservation/greenvessel.aspx">
+                                                                        Green Vessel</a></dd>
+                                                                <dd>
+                                                                    <a href="/about_us/Environment_Preservation/Green_Terminal.aspx">
+                                                                        Green Terminal</a></dd>
+                                                                <dd>
+                                                                    <a href="/about_us/Environment_Preservation/carboncalculator.aspx">
+                                                                        Carbon Calculator</a></dd>
+                                                                <dd>
+                                                                    <a href="/about_Us/Environment_Preservation/Clean_Cargo.aspx">
+                                                                        Clean Cargo</a></dd>
+                                                            </dl>
+                                                            <dl id="job_en">
+                                                                <dt>Jobs &amp; Career</dt>
+                                                                <dd>
+                                                                    <a href="/About_Us/Jobs_Career/WorkAtYangMing.aspx">Work at Yang Ming</a></dd>
+                                                            </dl>
+
+                                                            
+                                                            <dl>
+                                                                <dt>
+                                                                    Procurement Portal</dt>
+                                                                <dd>
+                                                                    <a id="linkProcurementPortal" href="https://procure.yangming.com/" target="_blank">Procurement Portal<img alt="" src="../../Content/img/new_R.gif" width="22" height="11" style="margin-left:4px;"/></a></dd>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!---------------------end about------------------------------------>
+                                                <li class="menu_btn"><a href="#">
+                                                    Service</a><!---------------------Our Service------------------------------------>
+                                                    <div class="sub" style="opacity: 0; display: none; width: 960px;">
+                                                        <div class="wrap_our_service">
+                                                            <dl>
+                                                                <dt>
+                                                                    Service Network</dt>
+                                                                <dd>
+                                                                    <a href="/service/service_network/containerequipment.aspx">
+                                                                        Container Specification</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/service_network/ContainerSecuritySealRequirementandStandards.aspx">
+                                                                        Container Security Seal Requirement and Standards</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/service_network/fleet.aspx">
+                                                                        Fleet</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/service_network/routemap.aspx">
+                                                                        Route Map</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/useful_info/THE_Ov.aspx">
+                                                                        THE Alliance Service Introduction</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>
+                                                                    Reefer Info</dt>
+                                                                <dd>
+                                                                    <a href="/service/Reefer_Info/Transporting_Perishables.aspx">
+                                                                        Transporting Perishables</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/Reefer_Info/Prior_Loading.aspx">
+                                                                        Prior Loading Checklists</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/Reefer_Info/Packaging.aspx">
+                                                                        Packaging Loading Patterns</a></dd>
+                                                                
+                                                                <dd>
+                                                                    <a href="/service/Reefer_Info/Generator_Sets.aspx">
+                                                                        Gensets</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>
+                                                                    Terminal Info.</dt>
+                                                                <dd>
+                                                                    <a href="/service/terminal_info/port.aspx">
+                                                                        Port Terminal</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/terminal_info/Loop_Terminal.aspx">
+                                                                        Loop & Terminal</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>
+                                                                    Useful Info</dt>
+                                                                <dd>
+                                                                    <a href="/service/Useful_Info/BL_Clause.aspx">
+                                                                        B/L Clause</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/Useful_Info/Cargo_Loss_And_Damage.aspx">
+                                                                        CargoLoss Damage</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/Useful_Info/cargo_weight_limitation.aspx">
+                                                                        Cargo Weight Limitation</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/Useful_Info/24_hour_ov.aspx">
+                                                                        24-Hour Advance Manifest Rule</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/Useful_Info/dangerouscargoinformation.aspx">
+                                                                        Dangerous Cargo Information</a></dd>
+                                                                <dd>
+                                                                    <a href="/service/Useful_Info/LettersofIndemnityandGuarantee.aspx">
+                                                                        Letter of Indemnity</a></dd>
+                                                                
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!---------------------end Our Service---------------------------------------------------------->
+                                                <li class="menu_btn"><a href="#">
+                                                    News</a>
+                                                    <div class="sub" style="opacity: 0; display: none; width: 960px;">
+                                                        <div class="wrap_news">
+                                                            <dl>
+                                                                <dt><a href="/News/press_release/PressRelease.aspx?BulletinType=PressRelease">
+                                                                    Press Release</a></dt>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><a href="/News/press_release/PressRelease.aspx?BulletinType=Notice">
+                                                                    Notice</a></dt>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><a href="/News/press_release/PressRelease.aspx?BulletinType=eService">
+                                                                    e-Service Updates</a></dt>
+                                                            </dl>
+                                                            <dl style="display: none">
+                                                                <dt><a href="/News/press_release/PressRelease.aspx?BulletinType=Member">
+                                                                    Customer Advisory</a></dt>
+                                                            </dl>
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- end of item_news -->
+                                                </li>
+                                                <!--20210119 new menu start-->
+                                                <li id="Corporate_en" class="menu_btn"><a href="#">
+                                                    Corporate Governance</a>
+                                                    <div class="sub">
+                                                        <div class="wrap_corporate">
+                                                            <dl>
+                                                                <dt>Corporate Governance Structure</dt>
+                                                                <dd><a href="/CorporateGovernance/Corporategovernancestructure.aspx">Corporate Governance Structure Chart</a></dd>
+                                                                <dd><a href="/CorporateGovernance/ChiefCorporateGovernanceOfficer.aspx">Chief Corporate Governance Officer</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Implementation Status of Corporate Governance</dt>
+                                                                <dd><a href="/CorporateGovernance/ImplementationStatusofEthicalCorporateManagement.aspx">Implementation Status of Ethical Corporate Management </a></dd>
+                                                                <dd><a href="/CorporateGovernance/ImplementationStatusofHumanRightsPolicies.aspx">Implementation Status of Human Rights Policies</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Board of Directors</dt>
+                                                                <dd><a href="/CorporateGovernance/BoardMembers.aspx">Board Members</a></dd>
+                                                                <dd><a href="/CorporateGovernance/BoardDiversityPolicy.aspx">The Board Diversity and Independence</a></dd>
+                                                                <dd><a href="/CorporateGovernance/SuccessionPlanforBoardMembers.aspx">Succession Plan for Board Members</a></dd>
+                                                                <dd><a href="/CorporateGovernance/BoardofDirectorsMeetingStatus.aspx">Board of Directors Meeting Status</a></dd>
+                                                                <dd><a href="/CorporateGovernance/MajorResolutionsofBoardMeetings.aspx">Major Resolutions of Board Meetings</a></dd>
+                                                                <dd><a href="/CorporateGovernance/ContinuingEducationforDirectors.aspx">Continuing Education for Directors</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Functional Committees</dt>
+                                                                <dd><a href="/CorporateGovernance/FunctionalCommittees.aspx">Functional Committees</a></dd>
+                                                                <dd><a href="/CorporateGovernance/FunctionalCommitteesMeetingStatus.aspx">Functional Committees Meeting Status</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Independent Directors’ Communication Status</dt>
+                                                                <dd><a href="/CorporateGovernance/IndependentDirectorsandChiefAuditor.aspx">Communication Status</a></dd>
+                                                                
+                                                            </dl>
+                                                            <!-- <dl>
+                                                                <dt>內部稽核</dt>
+                                                                <dd><a href="#">稽核室組織系統及人員配置表</a></dd>
+                                                                <dd><a href="#">稽核室執掌</a></dd>
+                                                            </dl> -->
+                                                            <dl>
+                                                                <dt>Whistleblowing System</dt>
+                                                                <dd><a href="/CorporateGovernance/SuggestionsandComplaints.aspx">Suggestions and Complaints</a></dd>
+                                                                <dd><a href="/CorporateGovernance/WhistleblowingSystem.aspx">Whistleblowing System</a></dd>
+                                                                
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Rules and Regulations</dt>
+                                                                <dd><a href="/CorporateGovernance/RulesandRegulations.aspx">Rules and Regulations</a></dd>
+                                                                
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <!--20210119 new menu end-->
+                                                <li id="Investor_en" class="menu_btn"><a href="#">
+                                                    Investor</a>
+                                                    <div class="sub">
+                                                        <div class="wrap_investment">
+                                                            <dl>
+                                                                <dt>
+                                                                    Shareholder Services</dt>
+                                                                <dd>
+                                                                    <a href="/investor_relations/TwCorporate_Governance/Important_Message.aspx">Important Message</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/Shareholder_Services/FinancialReportInfo.aspx">Financial Report Info.</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/Shareholder_Services/ShareholdersMeetingInfo.aspx">Shareholders Meeting Info.</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/Shareholder_Services/ForCostBasisInformation.aspx">For Cost Basis Information</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/Shareholder_Services/Investor_Conference.aspx">Investor Conference</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Risk Management</dt>
+                                                                <dd>
+                                                                    <a href="/investor_relations/TwRisk_management/Risk_Management.aspx">Risk Management</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/TwRisk_management/Risk_Management_Scope.aspx">The Scope and Organization Structure of the Risk Management</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/TwRisk_management/Risk_Management_Process.aspx">Process</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt>Corporate Social Responsibility</dt>
+                                                                <dd>
+                                                                    <a href="/investor_relations/Corporate_Governance/CorporateSocialReportList.aspx">Corporate Social Responsibility Report</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/Corporate_Governance/Stakeholder.aspx">Stakeholder Area</a></dd>
+                                                                <dd>
+                                                                    <a href="/investor_relations/Corporate_Governance/Sustainable_Procurement.aspx">Sustainable Procurement</a></dd>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end of item_news -->
+                                                </li>
+                                                
+                                                <li class="menu_btn"><a href="#">
+                                                    e-Service</a>
+                                                    <div class="sub" style="opacity: 0; display: none; width: 960px;">
+                                                        <div class="wrap_e_service">
+                                                            <dl>
+                                                                <dt><a href="/e-service/schedule/schedule_ov.aspx">
+                                                                    Sailing Schedule</a></dt>
+                                                                <dd>
+                                                                    <a href="/e-service/schedule/PointToPoint.aspx">
+                                                                        Point-to-Point Search
+                                                                    </a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/schedule/LongtermSchedule.aspx">
+                                                                        Long Term Schedule Download</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/schedule/ScheduleSubscription.aspx">
+                                                                        Schedule Subscription</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><a href="/e-service/vessel_tracking/vt_ov.aspx">
+                                                                    Vessel Tracking</a></dt>
+                                                                <dd>
+                                                                    <a href="/e-service/vessel_tracking/SearchByVessel.aspx">
+                                                                        Search by Vessel</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/vessel_tracking/SearchByPort.aspx">
+                                                                        Search by Port
+                                                                    </a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/vessel_tracking/SearchByService.aspx">
+                                                                        Search by Service</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/vessel_tracking/VtRptSubs.aspx">
+                                                                        Vessel Tracking Report Subscription</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><a href="/e-service/track_trace/tt_ov.aspx">
+                                                                    Track & Trace</a></dt>
+                                                                <dd>
+                                                                    <a href="/e-service/track_trace/track_trace_cargo_tracking.aspx">
+                                                                        Cargo Tracking</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/track_trace/track_trace_subscription.aspx">
+                                                                        Tracking Report Subscription</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/bl_process/PressSearch.aspx">
+                                                                        Telex Release</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><a href="/e-service/Tariff/TariffOv.aspx">
+                                                                    Tariff</a></dt>
+                                                                <dd>
+                                                                    <a href="/e-service/tariff/USA_Tariff_OV.aspx">
+                                                                        USA Tariff</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/demdet/demdet.aspx">
+                                                                        Demurrage and Detention</a></dd>
+                                                                <dd style="visibility: hidden">
+                                                                    <a href="/e-service/Tariff/DropOffQry.aspx">
+                                                                        EU Drop off Tariff</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <div style="display: ">
+                                                                    <dt><a href="/e-service/member_area/member_login.aspx">
+                                                                        My YM Account<img src="/Content/Img/lock.png" style="padding-left: 3px" alt="" /></a></dt>
+                                                                    <dd>
+                                                                        <a href="/e-service/member_area/member_login.aspx">
+                                                                            Member Login</a></dd>
+                                                                    <dd>
+                                                                        <a href="/e-service/member_area/register.aspx">
+                                                                            Register</a></dd>
+                                                                    <dd>
+                                                                        <a href="/e-service/member_area/forgot_password.aspx">
+                                                                            Forgot Password</a></dd>
+                                                                </div>
+                                                                <div style="display: none">
+                                                                    <dt><a href="/e-service/member_area/member_login_index.aspx">
+                                                                        My YM Account<img src="/Content/Img/lock.png" style="padding-left: 3px" alt="" />
+                                                                    </a></dt>
+                                                                    <dd>
+                                                                        <a href="/e-service/member_area/member_login_index.aspx?h_Sign=Logout">
+                                                                            Member Logout</a>
+                                                                    </dd>
+                                                                    <dd id="ddAMD">
+                                                                        <a href="/e-service/member_area/register_modify.aspx">
+                                                                            Change Register</a></dd>
+                                                                    <dd>
+                                                                        <a href="/e-service/member_area/change_password.aspx">
+                                                                            Change Password</a></dd>
+                                                                    <dd>
+                                                                        <a href="/e-service/member_area/member_management.aspx">
+                                                                            Sub-user Maintenance</a></dd>
+                                                                </div>
+                                                                <dd>
+                                                                    <a href="/e-service/member_area/faqs.aspx">
+                                                                        FAQs</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><a href="/e-service/myeservice_ov.aspx">
+                                                                    My e-Service<img src="/Content/Img/lock.png" style="padding-left: 3px" alt="" /></a></dt>
+                                                                <dd>
+                                                                    <a href="/e-service/booking/booking_ov.aspx">
+                                                                        Booking</a></dd>
+                                                                <dd>
+                                                                    <a href="/About_Us/Security_Regulation/SOLAS_VGM/Vgm_ov.aspx">
+                                                                        SOLAS VGM</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/bl_process/bl_instruction.aspx">
+                                                                        B/L&nbsp;Instruction</a></dd>
+                                                                <dd>
+                                                                    
+                                                                    <a href="/e-service/bl_process/blprint_main.aspx">
+                                                                        B/L Print</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/bl_process/bl_contents_query.aspx">
+                                                                        B/L Contents</a></dd>
+                                                            </dl>
+                                                            <dl style="padding-top: 40px">
+                                                                <dd>
+                                                                    <a href="/e-service/track_trace/ShipmentManagement.aspx">
+                                                                        Shipment Management</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/track_trace/ShipmentControl.aspx">
+                                                                        Report and Notification</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/tariff/OceanFreightOv.aspx">
+                                                                        My Ocean Freight
+                                                                        <img alt="" src="../../Content/img/new_R.gif" width="22" height="11" style="margin-left: 4px;" /></a></dd>
+                                                                <dd style="display: normal">
+                                                                    <a href="/e-service/tariff/DropOffOv.aspx">
+                                                                        My Drop off</a></dd>
+                                                                <dd style="display: none">
+                                                                    <a href="/e-service/bl_process/bl_finance.aspx">
+                                                                        Bank Financing Area</a></dd>
+                                                            </dl>
+                                                            <dl>
+                                                                <dt><a href="/e-service/EDI/EDI_OV.aspx">
+                                                                    EDI/API</a></dt>
+                                                                <dd>
+                                                                    <a href="/e-service/EDI/EDI_Intro.aspx?IntroType=EDI">
+                                                                        EDI Introduction</a></dd>
+                                                                <dd>
+                                                                    <a href="/e-service/EDI/EDI_Intro.aspx?IntroType=API">
+                                                                        API Introduction</a></dd>
+                                                            </dl>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!---------------------Office Network------------------------------------>
+                                                <li class="menu_btn"><a href="#">
+                                                    Office Network</a>
+                                                    <div class="sub" style="opacity: 0; display: none; width: 960px;">
+                                                        <div class="wrap_local">
+                                                            <div class="left">
+                                                                <ul>
+                                                                    <li class="title_head_office">
+                                                                        Global Headquarters</li>
+                                                                    <li><a href="/office_network/headquarter/headquarter.aspx">
+                                                                        Global Headquarters</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="left">
+                                                                <ul>
+                                                                    <li class="title_head_office">
+                                                                        Regional Head Office</li>
+                                                                    <li><a href="/office_network/regional_head_office/head_office.aspx#Central & South America">Central & South America</a></li>
+                                                                    <li><a href="/office_network/regional_head_office/head_office.aspx#Europe">Europe</a></li>
+                                                                    <li><a href="/office_network/regional_head_office/head_office.aspx#Mediterranean">Mediterranean Head Office</a></li>
+                                                                    <li><a href="/office_network/regional_head_office/head_office.aspx#North America">North America</a></li>
+                                                                </ul>
+                                                            </div>
+                                                            <div class="right">
+                                                                <span class="agent_title">
+                                                                    Office & Agent</span>
+                                                                <ul>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#ASI">Asia</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#BLS">Black Sea</a></li>
+                                                                    <li style="display: none;"><a href="/office_network/office_agent/agent_overview.aspx#CBS">Caribbean Sea</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#AMC">Central America</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#EUR">Europe</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#MED">Mediterranean</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#ME">Middle East</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#AMN">North America</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#OCE">Oceania</a></li>
+                                                                    <li><a href="/office_network/office_agent/agent_overview.aspx#AMS">South America</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!---------------------end Office Network---------------------------------------------------------->
+                                                <div id="Master_Local_Menu">
+
+
+<script type='text/javascript'>
+    function setLocalSite(localver,Lang_ver) {
+        document.getElementById('ctl169_hidlocalver').value = localver;
+        document.getElementById('ctl169_hidLang_ver').value = Lang_ver;
+        document.getElementById('ctl169_lnkLocalSite').click();   
+    }
+
+</script>
+<input type="hidden" name="ctl00$ctl169$hidlocalver" id="ctl169_hidlocalver" value="EN" />
+<input type="hidden" name="ctl00$ctl169$hidLang_ver" id="ctl169_hidLang_ver" value="en-us" />
+<a id="ctl169_lnkLocalSite" href="javascript:__doPostBack(&#39;ctl00$ctl169$lnkLocalSite&#39;,&#39;&#39;)"></a>
+
+<li id="ctl169_LocalInfo" class="menu_btn">
+    <a href="#">
+        Local Websites
+    </a>
+    <div class="sub">
+        <div class="wrap_local_site">
+            <span id="ctl169_lblLocal"><dl><dt><font size=2>Local Info</font></dt><dd><a href ='#' onclick=setLocalSite('AU','en-us'); > Australia</a></dd><dd><a href ='#' onclick=setLocalSite('BE','en-us'); > Belgium</a></dd><dd><a href ='#' onclick=setLocalSite('BG','en-us'); > Bulgaria</a></dd><dd><a href ='#' onclick=setLocalSite('CA','en-us'); > Canada</a></dd><dd><a href ='#' onclick=setLocalSite('CN','zh-cn'); > China(简体中文)</a></dd><dd><a href ='#' onclick=setLocalSite('HK','zh-tw'); > China-Hong Kong(繁體中文)</a></dd><dd><a href ='#' onclick=setLocalSite('EG','en-us'); > Egypt</a></dd><dd><a href ='#' onclick=setLocalSite('EE','en-us'); > Estonia</a></dd><dd><a href ='#' onclick=setLocalSite('DE','en-us'); > Germany</a></dd><dd><a href ='#' onclick=setLocalSite('GR','en-us'); > Greece</a></dd></dl><dl><dt>&nbsp;</dt><dd><a href ='#' onclick=setLocalSite('IN','en-us'); > India</a></dd><dd><a href ='#' onclick=setLocalSite('ID','en-us'); > Indonesia</a></dd><dd><a href ='#' onclick=setLocalSite('IT','en-us'); > Italy</a></dd><dd><a href ='#' onclick=setLocalSite('JP','ja-jp'); > Japan(日本語)</a></dd><dd><a href ='#' onclick=setLocalSite('KR','ko-KR'); > Korea(한국어)</a></dd><dd><a href ='#' onclick=setLocalSite('LV','en-us'); > Latvia</a></dd><dd><a href ='#' onclick=setLocalSite('LT','en-us'); > Lithuania</a></dd><dd><a href ='#' onclick=setLocalSite('MY','en-us'); > Malaysia</a></dd><dd><a href ='#' onclick=setLocalSite('NL','en-us'); > Netherlands</a></dd><dd><a href ='#' onclick=setLocalSite('PA','en-us'); > Panama</a></dd></dl><dl><dt>&nbsp;</dt><dd><a href ='#' onclick=setLocalSite('PE','en-us'); > Peru</a></dd><dd><a href ='#' onclick=setLocalSite('PH','en-us'); > Philippines</a></dd><dd><a href ='#' onclick=setLocalSite('PL','en-us'); > Poland</a></dd><dd><a href ='#' onclick=setLocalSite('QA','en-us'); > Qatar</a></dd><dd><a href ='#' onclick=setLocalSite('SG','en-us'); > Singapore</a></dd><dd><a href ='#' onclick=setLocalSite('ES','en-us'); > Spain</a></dd><dd><a href ='#' onclick=setLocalSite('SE','en-us'); > Sweden</a></dd><dd><a href ='#' onclick=setLocalSite('TW','zh-tw'); > Taiwan(繁體中文)</a></dd><dd><a href ='#' onclick=setLocalSite('TH','en-us'); > Thailand(ประเทศไทย)</a></dd><dd><a href ='#' onclick=setLocalSite('TR','en-us'); > Turkiye(Turkish)</a></dd></dl><dl><dt>&nbsp;</dt><dd><a href ='#' onclick=setLocalSite('AE','en-us'); > UAE</a></dd><dd><a href ='#' onclick=setLocalSite('GB','en-us'); > United Kingdom</a></dd><dd><a href ='#' onclick=setLocalSite('US','en-us'); > USA</a></dd><dd><a href ='#' onclick=setLocalSite('VN','en-us'); > Vietnam</a></dd></span>
+        </div>
+    </div>
+</li>
+</div>
+                                            </div>
+
+                                            <!---------------------end menu_en----------------------------------->
+
+                                            
+                                            <!---------------------end menu_zh_tw------------------------------------>
+                                        </ul>
+
+                                    </div>
+                                    <!--#navi end---------------->
+                                </div>
+                            </div>
+                            <!-----Tradition menu col div end---------->
+                            <!-----RWD Menu start-------------->
+                            <!------height assign------>
+                            <div id="menu_rwd" class="hidden-lg hidden-md col-sm-12 col-xs-12" style="padding: 0px">
+                                <div role="navigation" class="navbar navbar-default">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <!-- <a href="#" class="navbar-brand">Brand</a> -->
+                                        <a href="/index.aspx?rwd_home=Y&localver=" class="navbar-brand" style="padding-top: 7px;">
+                                            <img id="logo1" src="/Content/Img/logo_202407.svg" style="width: 36px; height: 36px;" />
+                                        </a>
+
+                                        <button type="button" data-target="#navbarmenu" data-toggle="collapse" class="navbar-toggle btnextra">
+                                            <span class="sr-only">menu</span>
+                                            <table>
+                                                <tr>
+                                                    <td style="padding: 2px 1px 1px 1px;">
+                                                        <span class="icon-dot"></span>
+                                                    </td>
+                                                    <td style="padding-top: 2px">
+                                                        <span class="icon-bar"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 1px;">
+                                                        <span class="icon-dot"></span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="icon-bar"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 1px;">
+                                                        <span class="icon-dot"></span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="icon-bar"></span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 1px 1px 1px 1px">
+                                                        <span class="icon-dot"></span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="icon-bar"></span>
+
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </button>
+                                        <button type="button" data-target="#navbarlang" data-toggle="collapse" class="navbar-toggle btnextra hidden-xs hidden-sm">
+                                            <span class="sr-only">lang</span>
+                                            <span>
+                                                <img src="/Content/Img/app_lang_2.png" style="width: 24px; height: 24px;" /></span>
+                                        </button>
+                                        <button type="button" data-target="#navbarsearch" data-toggle="collapse" class="navbar-toggle btnextra hidden-xs hidden-sm">
+                                            <span class="sr-only">search</span>
+                                            <span>
+                                                <img src="/Content/Img/app_search.png" style="width: 24px; height: 24px;" /></span>
+                                        </button>
+                                        <button type="button" data-toggle="collapse" class="navbar-toggle btnextra" style="display: " onclick="login('login');">
+                                            <span class="sr-only">user</span>
+                                            <span>
+                                                
+                                                <img src="/Content/Img/app_account.png" style="width: 24px; height: 24px;" />
+                                                
+                                            </span>
+                                        </button>
+                                        <button type="button" data-toggle="collapse" class="navbar-toggle btnextra" style="display: none" onclick="login('logout');">
+                                            <span class="sr-only">Logout</span>
+                                            <span>
+                                                
+                                                <img src="/Content/Img/logout_m.png" style="width: 24px; height: 24px;" />
+                                                
+                                            </span>
+                                        </button>
+
+                                        <a id="lbtzhrwd_tw" class="navbar-toggle btnextra" href="javascript:__doPostBack(&#39;ctl00$lbtzhrwd_tw&#39;,&#39;&#39;)" style="padding-top:5px;padding-bottom:5px;display:;">繁體版</a>
+                                        <a id="lbtusrwd_en" class="navbar-toggle btnextra" href="javascript:__doPostBack(&#39;ctl00$lbtusrwd_en&#39;,&#39;&#39;)" style="padding-top:5px;padding-bottom:5px;display:none;">English</a>
+
+                                        <div style="display: none; padding-top: 15px; font-size: 12px">
+                                            <span style="vertical-align: middle; color: White">
+                                                
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!-- Collection of nav links, forms, and other content for toggling -->
+                                    <div id="navbarmenu" class="collapse navbar-collapse">
+                                        <ul id="navbar_nav_rwd" class="nav navbar-nav">
+                                            <!---------------------About Us------------------------------------>
+
+                                            <li class="dropdown menu_li"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                About Us<b class="caret" style="color: Red;"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Security and Regulation</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/About_Us/Security_Regulation/SOLAS_VGM/Vgm_ov.aspx">
+                                                                SOLAS VGM</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Environmental Protection</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/about_us/Environment_Preservation/greenvessel.aspx">
+                                                                Green Vessel</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/about_us/Environment_Preservation/carboncalculator.aspx">
+                                                                Carbon Calculator</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                                
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Procurement Portal</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li">
+                                                                <a id="linkProcurementPortalRwd" href="https://procure.yangming.com/" target="_blank">Procurement Portal<img alt="" src="../../Content/img/new_R.gif" width="22" height="11" style="margin-left:4px;"/></a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!---------------------end About Us---------------------------------------------------------->
+                                            <!---------------------Service------------------------------------>
+                                            <li class="dropdown menu_li"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                Service<b class="caret" style="color: Red;"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Service Network</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/service/service_network/ContainerEquipment.aspx">
+                                                                Container Specification</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/service/service_network/Fleet.aspx">
+                                                                Fleet</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/service/service_network/RouteMap.aspx">
+                                                                Route Map</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <!--  <li class="divider"></li>-->
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Terminal Info.</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/service/terminal_info/port.aspx">
+                                                                Port Terminal</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!---------------------end Service---------------------------------------------------------->
+                                            <!---------------------office Network------------------------------------>
+                                            <li class="dropdown menu_li"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                Office Network<b class="caret" style="color: Red;"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/office_network/office_agent/agent_overview.aspx">
+                                                        Office & Agent</a></li>
+                                                </ul>
+                                            </li>
+                                            <!---------------------end office Network---------------------------------------------------------->
+                                            <!---------------------News------------------------------------>
+                                            <li class="dropdown menu_li"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                News<b class="caret" style="color: Red;"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/News/press_release/PressRelease.aspx?BulletinType=PressRelease">
+                                                        Press Release</a></li>
+                                                    <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/News/press_release/PressRelease.aspx?BulletinType=Notice">
+                                                        Notice</a></li>
+                                                    <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/News/press_release/PressRelease.aspx?BulletinType=eService">
+                                                        e-Service Updates</a></li>
+                                                    <li style="display: none" class="dropdown-lastitem menu_li"><a tabindex="-1" href="/News/press_release/PressRelease.aspx?BulletinType=Member">
+                                                        Customer Advisory</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <!---------------------end News---------------------------------------------------------->
+                                            <!---------------------Investor------------------------------------>
+                                            <li class="dropdown menu_li"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                Investor<b class="caret" style="color: Red;"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Corporate Governance</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/investor_relations/Corporate_Governance/CorporateSocialReportList.aspx">
+                                                                Article of Incorporation</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/investor_relations/Corporate_Governance/CorporateSocialResponsibilityReport.aspx">Corporate Social Responsibility Report</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">Shareholder Services</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/investor_relations/Shareholder_Services/FinancialReportInfo.aspx">Financial Report Info.</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/investor_relations/Shareholder_Services/ForCostBasisInformation.aspx">For Cost Basis Information</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <!---------------------end Investor---------------------------------------------------------->
+                                            <!---------------------e-Service------------------------------------>
+                                            <li class="dropdown menu_li"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                e-Service<b class="caret" style="color: Red;"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Sailing Schedule</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/schedule/PointToPoint.aspx">
+                                                                Point-to-Point Search</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Booking</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/booking/booking_request_inq.aspx">
+                                                                Booking Request</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/booking/booking_page.aspx?nowAct=searchHistory">
+                                                                Booking History</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/booking/booking_page.aspx?nowAct=templateList">
+                                                                Booking Template</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/booking/business_partners_maintenance.aspx">
+                                                                Business Partners Maintenance</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        B/L Process</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/bl_process/bl_contents_query.aspx">
+                                                                B/L Contents</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/bl_process/PressSearch.aspx">
+                                                                Telex Release</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Vessel Tracking</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/vessel_tracking/SearchByVessel.aspx">
+                                                                Search by Vessel</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/vessel_tracking/SearchByPort.aspx">
+                                                                Search by Port</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="dropdown dropdown-submenu menu_li"><a tabindex="-1" class="dropdown-toggle"
+                                                        data-toggle="dropdown" href="#">
+                                                        Track & Trace</a>
+                                                        <ul class="dropdown-menu">
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/track_trace/track_trace_cargo_tracking.aspx">
+                                                                Cargo Tracking</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/track_trace/track_trace_subscription.aspx">
+                                                                Tracking Report Subscription</a></li>
+                                                            <li class="dropdown-lastitem menu_li"><a tabindex="-1" href="/e-service/track_trace/ShipmentControl.aspx">
+                                                                Report and Notification</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <span id="Master_Local_Menu_Rwd">
+
+
+<script type='text/javascript'>
+    function setLocalSite_Rwd(localver, Lang_ver) {
+        document.getElementById('ctl170_hidlocalver').value = localver;
+        document.getElementById('ctl170_hidLang_ver').value = Lang_ver;
+        document.getElementById('ctl170_lnkLocalSite').click();
+    }
+
+</script>
+<input type="hidden" name="ctl00$ctl170$hidlocalver" id="ctl170_hidlocalver" value="EN" />
+<input type="hidden" name="ctl00$ctl170$hidLang_ver" id="ctl170_hidLang_ver" value="en-us" />
+<a id="ctl170_lnkLocalSite" href="javascript:__doPostBack(&#39;ctl00$ctl170$lnkLocalSite&#39;,&#39;&#39;)"></a>
+
+
+<li class="dropdown menu_li"  style="padding-left:30px">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
+        Local Info<b class="caret" style="color: Red;"></b>
+    </a>
+    <ul class="dropdown-menu">
+       
+              <span id="ctl170_lblLocal"><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('AU','en-us'); > Australia</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('BE','en-us'); > Belgium</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('BG','en-us'); > Bulgaria</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('CA','en-us'); > Canada</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('CN','zh-cn'); > China(简体中文)</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('HK','zh-tw'); > China-Hong Kong(繁體中文)</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('EG','en-us'); > Egypt</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('EE','en-us'); > Estonia</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('DE','en-us'); > Germany</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('GR','en-us'); > Greece</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('IN','en-us'); > India</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('ID','en-us'); > Indonesia</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('IT','en-us'); > Italy</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('JP','ja-jp'); > Japan(日本語)</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('KR','ko-KR'); > Korea(한국어)</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('LV','en-us'); > Latvia</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('LT','en-us'); > Lithuania</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('MY','en-us'); > Malaysia</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('NL','en-us'); > Netherlands</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('PA','en-us'); > Panama</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('PE','en-us'); > Peru</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('PH','en-us'); > Philippines</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('PL','en-us'); > Poland</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('QA','en-us'); > Qatar</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('SG','en-us'); > Singapore</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('ES','en-us'); > Spain</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('SE','en-us'); > Sweden</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('TW','zh-tw'); > Taiwan(繁體中文)</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('TH','en-us'); > Thailand(ประเทศไทย)</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('TR','en-us'); > Turkiye(Turkish)</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('AE','en-us'); > UAE</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('GB','en-us'); > United Kingdom</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('US','en-us'); > USA</a></li><li class='dropdown-lastitem menu_li'> <a tabindex ='-1' class='dropdown-toggle'  data-toggle='dropdown' href='#' onclick=setLocalSite_Rwd('VN','en-us'); > Vietnam</a></li></span>
+    </ul>
+</li>
+</span>
+                                            <!---------------------end e-Service---------------------------------------------------------->
+                                        </ul>
+
+                                        
+                                    </div>
+                                    <div id="navbarlang" class="collapse navbar-collapse">
+                                        <ul class="nav navbar-nav">
+                                            <!---------------------English------------------------------------>
+                                            <li class="menu_li"><a href="/index.aspx">English</a> </li>
+                                            <!---------------------T_Chinese------------------------------------>
+                                            <li class="menu_li"><a href="/index.aspx">繁體中文</a> </li>
+                                            <!---------------------S_Chinese------------------------------------>
+                                            <li class="menu_li"><a href="http://www.yml.com.cn/cn/ASP/index.aspx" target="_blank">简体中文</a> </li>
+                                        </ul>
+                                    </div>
+                                    <!---- navbarlang end ---->
+                                    <div id="navbarsearch" class="collapse navbar-collapse">
+                                        <ul class="nav navbar-nav">
+                                            <!---------------------Search------------------------------------>
+                                            <li class="menu_li"><a href="/search.aspx">Search</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!---- navbarsearch end ---->
+                                    <!---- navbaruser start ---->
+                                    
+                                    <!---- navbaruser end ---->
+                                </div>
+                                <!---- navbar ---->
+                            </div>
+                        </div>
+                    </div>
+                    
+    <div class="row sub_menu">
+        <div class="subnavi_wrapper_rwd ">
+            <div id="current_rwd" class=" hidden-xs col-sm-2 col-md-2 col-lg-2">
+                Sailing Schedule
+            </div>
+            <div id="subnavi_rwd" class="hidden-xs col-sm-10 col-md-10 col-lg-10 ">
+                <a href="schedule_ov.aspx" class="hidden-xs hidden-sm">
+                    Overview</a>
+                <a href="PointToPoint.aspx?ver=EN" class="hidden-xs hidden-sm">
+                    Point-to-Point Search</a>
+                <a href="LongtermSchedule.aspx"
+                    class="hidden-xs hidden-sm">
+                    Long Term Schedule Download</a>
+                <a href="ScheduleSubscription.aspx"
+                    class="hidden-xs hidden-sm">
+                    Schedule Subscription</a>
+            </div>
+        </div>
+    </div>
+
+                    <!--Sub Menu-->
+                </div>
+                <div id="content_rwd" class="row" style="background-color: #FFF;">
+                    
+    <div id="ContentPlaceHolder1_banner_rwd" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0">
+        <img alt="" src="../../Content/img/banner_05.jpg" class="banner_img" />
+    </div>
+    <div class="eser_ttwrap_topset_rwd col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h2 class="greent_rwd">
+            Point-to-Point Search
+        </h2>
+    </div>
+    <br />
+    <!-- -------------------START INFOMATION ---------------------->
+    
+    <div style="width: 100px; margin-left: 830px;">
+        <a href="/e-service/survey/survey.aspx?survey=INTERACTIVE">
+            <span id="ContentPlaceHolder1_DESC3" style="color:#0577B3;">[Quick Survey]</span></a>
+    </div>
+    
+    <!--------------------- END INFOMATION ---------------------->
+    <div id="ContentPlaceHolder1_UpdatePanel1">
+	
+            <div id="article_rwd">
+                <div class="info_hide col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-bottom: 20px; width: 100%;">
+                    <span class="moreinfo" style="width: 100%">
+                        <img id="ContentPlaceHolder1_Image2" alt="more information" title="more information" src="../../Content/Img/btn_info.gif" src="" style="height:14px;width:23px;" />
+                    </span>
+                    <div class="info" style="width: 100%;">
+                        <ul style="padding-left: 0px;">
+                            <li>
+                                <span id="ContentPlaceHolder1_lblP2PSearchNote5">[Transit time] : The total transportation days including waiting time for transshipment.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="eser_ttwrap_topbar1_rwd col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px;">
+                    <div class="row ">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+                            <div class="bluefont3_rwd" align="left" style="vertical-align: middle;">
+                                <span id="Span1" style="color: Black;">
+                                    From
+                                </span>
+                                <span id="ContentPlaceHolder1_txtFrom" style="color:#1764E3;">NHAVA SHEVA (INNSA)(Container yard)</span>
+                                <span class="bkfont_rwd"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
+                            <div class="bluefont3_rwd" align="left" valign="middle">
+                                <span id="Span3" style="color: Black;">
+                                    To
+                                </span>
+                                <span id="ContentPlaceHolder1_txtTo" style="color:#1764E3;">JEBEL ALI (AEJEA)(Container yard)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="eser_ttwrap_topbar1_rwd col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-top: 10px;">
+                    <div class="row ">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
+                            <div class="bluefont3_rwd" align="left" style="vertical-align: middle;">
+                                <span id="Span6" style="color: Black;">
+                                    Priority
+                                </span>
+                                <span id="ContentPlaceHolder1_txtPriorityType" style="color:#1764E3;">All</span>
+                                <span class="bkfont_rwd"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 ">
+                            <div class="bluefont3_rwd" align="left" style="vertical-align: middle;">
+                                <span id="Span5" style="color: Black;">
+                                    Period
+                                </span>
+                                <span id="ContentPlaceHolder1_txtPeriodType" style="color:#1764E3;">Departure Date</span>
+                                <span class="bkfont_rwd"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 ">
+                            <div class="bluefont3_rwd" align="left" style="vertical-align: middle;">
+                                <span id="Span2" style="color: Black;">
+                                    Start Date
+                                </span>
+                                <span id="ContentPlaceHolder1_txtStartDate" style="color:#1764E3;">2024/09/10</span>
+                                <span class="bkfont_rwd"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 ">
+                            <div class="bluefont3_rwd" align="left" valign="middle">
+                                <span id="Span4" style="color: Black;">
+                                    End Date
+                                </span>
+                                <span id="ContentPlaceHolder1_txtEndDate" style="color:#1764E3;">2024/09/24</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <div id="ContentPlaceHolder1_divCountent" class="section_wrap_bottom">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class='parent_div0'><div id='divCargoDateSchedule' style='padding-top:30px;padding-bottom:30px;width:100%;overflow-x:auto;'>
+                                </div>
+                        </table>
+                       </div>
+                            </div>
+                        </div>
+                        <div align="left">
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidFrom_Service" id="ContentPlaceHolder1_hidFrom_Service" value="Container yard" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidTo_Service" id="ContentPlaceHolder1_hidTo_Service" value="Container yard" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidFromLocation" id="ContentPlaceHolder1_hidFromLocation" value="NHAVA SHEVA (INNSA)" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidToLocation" id="ContentPlaceHolder1_hidToLocation" value="JEBEL ALI (AEJEA)" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidfromLocCD" id="ContentPlaceHolder1_hidfromLocCD" value="INNSA" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidtoLocCD" id="ContentPlaceHolder1_hidtoLocCD" value="AEJEA" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidFrom_txt" id="ContentPlaceHolder1_hidFrom_txt" value="nha" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidTo_txt" id="ContentPlaceHolder1_hidTo_txt" value="jebe" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidFromServiceTerm" id="ContentPlaceHolder1_hidFromServiceTerm" value="Y" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidToServiceTerm" id="ContentPlaceHolder1_hidToServiceTerm" value="Y" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hiddate_Start" id="ContentPlaceHolder1_hiddate_Start" value="2024/09/10" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hiddate_End" id="ContentPlaceHolder1_hiddate_End" value="2024/09/24" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidFromHome" id="ContentPlaceHolder1_hidFromHome" value="N / 21" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidPriorityType" id="ContentPlaceHolder1_hidPriorityType" value="ALL" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidPeriodType" id="ContentPlaceHolder1_hidPeriodType" value="DEP" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidFromType" id="ContentPlaceHolder1_hidFromType" value="Input" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidToType" id="ContentPlaceHolder1_hidToType" value="Input" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidDir" id="ContentPlaceHolder1_hidDir" value="asc" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidLastOrder" id="ContentPlaceHolder1_hidLastOrder" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidVersion" id="ContentPlaceHolder1_hidVersion" value="www.yangming.com" />
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hidST" id="ContentPlaceHolder1_hidST" value="vGwyQBBLkv72uQbRcnnCt8mhjtaZWAm4psBS/mqK3Wr7sAbcrByvTdFVN0HondeQ" />
+                            
+                            <input type="submit" name="ctl00$ContentPlaceHolder1$btnBack" value="Back" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnBack&quot;, &quot;&quot;, false, &quot;&quot;, &quot;PointToPoint.aspx&quot;, false, false))" id="ContentPlaceHolder1_btnBack" class="form_btn_80px" />
+                        </div>
+                        <div style="padding-top:20px;">
+                            <span style="color: Black;">
+                                Note : This tracking result is for reference only. For more details, please contact our <u><a href='../../office_network/office_agent/agent_overview.aspx'>local office</a></u>.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--2017/02/21 for new THE , can be removed  after new routing apply -->
+            <div>
+                <br />
+                <br />
+            </div>
+            <!-- END 2017/02/21 for new THE -->
+        
+</div>
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hidTblOrigHeight" id="ContentPlaceHolder1_hidTblOrigHeight" />
+    <input type="hidden" name="ctl00$ContentPlaceHolder1$hidTblOrigID" id="ContentPlaceHolder1_hidTblOrigID" />
+
+                    <!--Main-->
+                </div>
+                
+    <div id="breadcrumb_rwd" class="row hidden-xs">
+        <div class="hidden-xs col-sm-12 col-md-12 col-lg-12">
+            <span id="ContentPlaceHolder3_DIRECT1">Home</span>
+            <span id="ContentPlaceHolder3_DIRECT2">e-Service</span>
+            <span id="ContentPlaceHolder3_DIRECT3">Sailing Schedule</span>
+            <span id="ContentPlaceHolder3_DIRECT4">Point-to-Point Search</span>
+        </div>
+    </div>
+    <div id="footer">
+        <br />
+        <span class="copyright">
+            Copyright © YANG MING. All Rights Reserved. <span class="terms"><a href="/TermsOfUse.aspx">
+                Terms of use</a></span>
+            <span class="terms"><a href="/PrivacyPolicy.aspx">
+               Privacy Policy</a></span><span class="terms"><a href=" /EthicalManagementStatement.aspx">Ethical Management Statement</span>
+        </span>
+        <br />
+    </div>
+
+                <!--footer-->
+            </div>
+        </div>
+    </form>
+</body>
+</html>

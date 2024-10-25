@@ -1,0 +1,20 @@
+apiVersion: v1
+data:
+  mapRoles: |
+    - groups:
+      - system:bootstrappers
+      - system:nodes
+      rolearn: arn:aws:iam::885876711116:role/ff-webapp-eks-node-role
+      username: system:node:{{EC2PrivateDNSName}}
+  mapUsers: |
+    - userarn: arn:aws:iam::885876711116:user/sureshm@intemo.tech
+      username: sureshm@intemo.tech
+      groups:
+        - system:masters
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2023-06-18T12:31:26Z"
+  name: aws-auth
+  namespace: kube-system
+  resourceVersion: "16238408"
+  uid: 571443ba-cb40-44a0-86bf-6b87a0ccd46a

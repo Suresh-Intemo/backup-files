@@ -1,0 +1,13 @@
+apiVersion: kafka.strimzi.io/v1beta2
+kind: KafkaTopic
+metadata:
+  name: test-topic         
+  labels:
+    strimzi.io/cluster: intemo-kafka-cluster  # Kafka cluster name
+spec:
+  partitions: 1           
+  replicas: 1             
+  config:                 
+    cleanup.policy: compact    
+    retention.ms: 86400000     
+    segment.bytes: 1073741824  

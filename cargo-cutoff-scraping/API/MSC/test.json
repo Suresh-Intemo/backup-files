@@ -1,0 +1,1214 @@
+{
+  "IsSuccess": true,
+  "Data": [
+    {
+      "Key": {
+        "MaritimeServiceName": "NWC TO IPAK",
+        "PortOfLoading": "NHAVA SHEVA",
+        "PortOfDischarge": "DUBLIN"
+      },
+      "RouteHeaderId": 4361609,
+      "PortOfLoadId": 31,
+      "PortOfLoad": "NHAVA SHEVA",
+      "PortOfLoadUnCode": "INNSA",
+      "PortOfDischargeId": 329,
+      "PortOfDischarge": "DUBLIN",
+      "PortOfDischargeUnCode": "IEDUB",
+      "TransitTime": "48 days",
+      "TransitTimeHours": 1152,
+      "CO2FootPrint": "0.7611 Tons",
+      "EstimatedDepartureTime": "2024-09-17T05:45:00",
+      "EstimatedDepartureTimeFormatted": "Tue 17th Sep 2024",
+      "LoadingService": "NWC TO IPAK",
+      "IsDirectRoute": false,
+      "RoutingType": "Transhipment",
+      "Routes": [
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "Mon 16th Sep 2024 14:00",
+            "ReeferCutOffDate": "Mon 16th Sep 2024 14:00",
+            "DangerousCargoCutOffDate": "Fri 13th Sep 2024 20:00",
+            "ShippingInstructionsCutOffDate": "Sat 14th Sep 2024 11:00",
+            "VerifiedGrossMassCutOffDate": "Mon 16th Sep 2024 14:00"
+          },
+          "EstimatedDepartureDateFormatted": "Tue 17th Sep 2024",
+          "EstimatedDepartureDate": "2024-09-17T05:45:00",
+          "EstimatedArrivalDateFormatted": "Mon 4th Nov 2024",
+          "EstimatedArrivalDate": "2024-11-04T12:45:00",
+          "EstimatedArrivalDatePolFormatted": "Mon 16th Sep 2024 01:15",
+          "VesselName": "MSC GREENWICH",
+          "DepartureVoyageNo": "IP437A",
+          "TotalTransitTime": "48 days",
+          "TotalTransitTimeHours": 1152,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP437A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-09-17T05:45:00",
+              "EstimatedDepartureTimeFormatted": "Tue 17th Sep 2024 03:45",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "MSC GREENWICH",
+                "VesselImoCode": "9286267",
+                "VesselBuiltYear": "2004",
+                "VesselFlag": "PORTUGAL"
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": [
+                {
+                  "PortName": "MUNDRA",
+                  "PortCode": "INMUN",
+                  "EstimatedArrivalDate": "Wed 18th Sep 2024",
+                  "EstimatedDepartureDate": "Fri 20th Sep 2024",
+                  "EstimatedArrivalHour": "09:00",
+                  "EstimatedDepartureHour": "01:00"
+                },
+                {
+                  "PortName": "LOME",
+                  "PortCode": "TGLFW",
+                  "EstimatedArrivalDate": "Fri 11th Oct 2024",
+                  "EstimatedDepartureDate": "Sat 12th Oct 2024",
+                  "EstimatedArrivalHour": "21:27",
+                  "EstimatedDepartureHour": "21:27"
+                },
+                {
+                  "PortName": "FELIXSTOWE",
+                  "PortCode": "GBFXT",
+                  "EstimatedArrivalDate": "Wed 23rd Oct 2024",
+                  "EstimatedDepartureDate": "Thu 24th Oct 2024",
+                  "EstimatedArrivalHour": "09:38",
+                  "EstimatedDepartureHour": "09:38"
+                },
+                {
+                  "PortName": "ROTTERDAM",
+                  "PortCode": "NLRTM",
+                  "EstimatedArrivalDate": "Thu 24th Oct 2024",
+                  "EstimatedDepartureDate": "Fri 25th Oct 2024",
+                  "EstimatedArrivalHour": "21:38",
+                  "EstimatedDepartureHour": "13:38"
+                },
+                {
+                  "PortName": "HAMBURG",
+                  "PortCode": "DEHAM",
+                  "EstimatedArrivalDate": "Sat 26th Oct 2024",
+                  "EstimatedDepartureDate": "Mon 28th Oct 2024",
+                  "EstimatedArrivalHour": "21:38",
+                  "EstimatedDepartureHour": "08:38"
+                },
+                {
+                  "PortName": "BREMERHAVEN",
+                  "PortCode": "DEBRV",
+                  "EstimatedArrivalDate": "Mon 28th Oct 2024",
+                  "EstimatedDepartureDate": "Tue 29th Oct 2024",
+                  "EstimatedArrivalHour": "20:38",
+                  "EstimatedDepartureHour": "20:38"
+                }
+              ]
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "RA444A",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-11-01T17:45:00",
+              "EstimatedDepartureTimeFormatted": "Fri 1st Nov 2024 16:45",
+              "EstimatedArrivalTime": "2024-10-31T01:38:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Thu 31st Oct 2024 00:38",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "MSC NIKOLETA II",
+                "VesselImoCode": "9232644",
+                "VesselBuiltYear": "2002",
+                "VesselFlag": "LIBERIA"
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": [
+                {
+                  "PortName": "ZEEBRUGGE",
+                  "PortCode": "BEZEE",
+                  "EstimatedArrivalDate": "Sat 2nd Nov 2024",
+                  "EstimatedDepartureDate": "Sat 2nd Nov 2024",
+                  "EstimatedArrivalHour": "01:45",
+                  "EstimatedDepartureHour": "08:45"
+                }
+              ]
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-11-04T12:45:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Mon 4th Nov 2024 11:45",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        },
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "Fri 20th Sep 2024 13:00",
+            "ReeferCutOffDate": "Fri 20th Sep 2024 13:00",
+            "DangerousCargoCutOffDate": "Tue 17th Sep 2024 19:00",
+            "ShippingInstructionsCutOffDate": "Tue 17th Sep 2024 15:00",
+            "VerifiedGrossMassCutOffDate": "Fri 20th Sep 2024 13:00"
+          },
+          "EstimatedDepartureDateFormatted": "Sat 21st Sep 2024",
+          "EstimatedDepartureDate": "2024-09-21T20:30:00",
+          "EstimatedArrivalDateFormatted": "Tue 12th Nov 2024",
+          "EstimatedArrivalDate": "2024-11-12T22:00:00",
+          "EstimatedArrivalDatePolFormatted": "Fri 20th Sep 2024 16:00",
+          "VesselName": "MSC ELLEN",
+          "DepartureVoyageNo": "IP438A",
+          "TotalTransitTime": "52 days",
+          "TotalTransitTimeHours": 1248,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP438A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-09-21T20:30:00",
+              "EstimatedDepartureTimeFormatted": "Sat 21st Sep 2024 18:30",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "MSC ELLEN",
+                "VesselImoCode": "9166780",
+                "VesselBuiltYear": "1999",
+                "VesselFlag": "LIBERIA"
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": [
+                {
+                  "PortName": "HAZIRA PORT/SURAT",
+                  "PortCode": "INHZA",
+                  "EstimatedArrivalDate": "Sun 22nd Sep 2024",
+                  "EstimatedDepartureDate": "Mon 23rd Sep 2024",
+                  "EstimatedArrivalHour": "08:00",
+                  "EstimatedDepartureHour": "13:00"
+                },
+                {
+                  "PortName": "MUNDRA",
+                  "PortCode": "INMUN",
+                  "EstimatedArrivalDate": "Tue 24th Sep 2024",
+                  "EstimatedDepartureDate": "Thu 26th Sep 2024",
+                  "EstimatedArrivalHour": "18:00",
+                  "EstimatedDepartureHour": "10:00"
+                },
+                {
+                  "PortName": "LOME",
+                  "PortCode": "TGLFW",
+                  "EstimatedArrivalDate": "Fri 18th Oct 2024",
+                  "EstimatedDepartureDate": "Sat 19th Oct 2024",
+                  "EstimatedArrivalHour": "06:30",
+                  "EstimatedDepartureHour": "06:30"
+                },
+                {
+                  "PortName": "FELIXSTOWE",
+                  "PortCode": "GBFXT",
+                  "EstimatedArrivalDate": "Tue 29th Oct 2024",
+                  "EstimatedDepartureDate": "Wed 30th Oct 2024",
+                  "EstimatedArrivalHour": "19:00",
+                  "EstimatedDepartureHour": "19:00"
+                },
+                {
+                  "PortName": "ROTTERDAM",
+                  "PortCode": "NLRTM",
+                  "EstimatedArrivalDate": "Thu 31st Oct 2024",
+                  "EstimatedDepartureDate": "Thu 31st Oct 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "23:00"
+                },
+                {
+                  "PortName": "HAMBURG",
+                  "PortCode": "DEHAM",
+                  "EstimatedArrivalDate": "Sat 2nd Nov 2024",
+                  "EstimatedDepartureDate": "Sun 3rd Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "18:00"
+                },
+                {
+                  "PortName": "BREMERHAVEN",
+                  "PortCode": "DEBRV",
+                  "EstimatedArrivalDate": "Mon 4th Nov 2024",
+                  "EstimatedDepartureDate": "Tue 5th Nov 2024",
+                  "EstimatedArrivalHour": "14:00",
+                  "EstimatedDepartureHour": "14:00"
+                }
+              ]
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "RA445A",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-11-08T07:00:00",
+              "EstimatedDepartureTimeFormatted": "Fri 8th Nov 2024 06:00",
+              "EstimatedArrivalTime": "2024-11-06T19:00:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Wed 6th Nov 2024 18:00",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-11-12T22:00:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Tue 12th Nov 2024 21:00",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        },
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "Wed 2nd Oct 2024 14:00",
+            "ReeferCutOffDate": "Wed 2nd Oct 2024 14:00",
+            "DangerousCargoCutOffDate": "Sun 29th Sep 2024 20:00",
+            "ShippingInstructionsCutOffDate": "Mon 30th Sep 2024 15:00",
+            "VerifiedGrossMassCutOffDate": "Wed 2nd Oct 2024 14:00"
+          },
+          "EstimatedDepartureDateFormatted": "Sat 28th Sep 2024",
+          "EstimatedDepartureDate": "2024-09-28T20:30:00",
+          "EstimatedArrivalDateFormatted": "Tue 19th Nov 2024",
+          "EstimatedArrivalDate": "2024-11-19T22:00:00",
+          "EstimatedArrivalDatePolFormatted": "Fri 27th Sep 2024 16:00",
+          "VesselName": "MSC MAEVA",
+          "DepartureVoyageNo": "IP439A",
+          "TotalTransitTime": "52 days",
+          "TotalTransitTimeHours": 1248,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP439A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-09-28T20:30:00",
+              "EstimatedDepartureTimeFormatted": "Sat 28th Sep 2024 18:30",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "MSC MAEVA",
+                "VesselImoCode": "9289128",
+                "VesselBuiltYear": "2005",
+                "VesselFlag": "PANAMA"
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": [
+                {
+                  "PortName": "HAZIRA PORT/SURAT",
+                  "PortCode": "INHZA",
+                  "EstimatedArrivalDate": "Sun 29th Sep 2024",
+                  "EstimatedDepartureDate": "Mon 30th Sep 2024",
+                  "EstimatedArrivalHour": "08:00",
+                  "EstimatedDepartureHour": "13:00"
+                },
+                {
+                  "PortName": "MUNDRA",
+                  "PortCode": "INMUN",
+                  "EstimatedArrivalDate": "Tue 1st Oct 2024",
+                  "EstimatedDepartureDate": "Thu 3rd Oct 2024",
+                  "EstimatedArrivalHour": "18:00",
+                  "EstimatedDepartureHour": "10:00"
+                },
+                {
+                  "PortName": "FELIXSTOWE",
+                  "PortCode": "GBFXT",
+                  "EstimatedArrivalDate": "Tue 5th Nov 2024",
+                  "EstimatedDepartureDate": "Wed 6th Nov 2024",
+                  "EstimatedArrivalHour": "19:00",
+                  "EstimatedDepartureHour": "19:00"
+                },
+                {
+                  "PortName": "ROTTERDAM",
+                  "PortCode": "NLRTM",
+                  "EstimatedArrivalDate": "Thu 7th Nov 2024",
+                  "EstimatedDepartureDate": "Thu 7th Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "23:00"
+                },
+                {
+                  "PortName": "HAMBURG",
+                  "PortCode": "DEHAM",
+                  "EstimatedArrivalDate": "Sat 9th Nov 2024",
+                  "EstimatedDepartureDate": "Sun 10th Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "18:00"
+                },
+                {
+                  "PortName": "BREMERHAVEN",
+                  "PortCode": "DEBRV",
+                  "EstimatedArrivalDate": "Mon 11th Nov 2024",
+                  "EstimatedDepartureDate": "Tue 12th Nov 2024",
+                  "EstimatedArrivalHour": "14:00",
+                  "EstimatedDepartureHour": "14:00"
+                }
+              ]
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "TBN",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-11-15T07:00:00",
+              "EstimatedDepartureTimeFormatted": "Fri 15th Nov 2024 06:00",
+              "EstimatedArrivalTime": "2024-11-13T19:00:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Wed 13th Nov 2024 18:00",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-11-19T22:00:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Tue 19th Nov 2024 21:00",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        },
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "Fri 4th Oct 2024 10:00",
+            "ReeferCutOffDate": "Fri 4th Oct 2024 10:00",
+            "DangerousCargoCutOffDate": "Tue 1st Oct 2024 16:00",
+            "ShippingInstructionsCutOffDate": "Tue 1st Oct 2024 15:00",
+            "VerifiedGrossMassCutOffDate": "Fri 4th Oct 2024 10:00"
+          },
+          "EstimatedDepartureDateFormatted": "Sat 5th Oct 2024",
+          "EstimatedDepartureDate": "2024-10-05T20:30:00",
+          "EstimatedArrivalDateFormatted": "Tue 26th Nov 2024",
+          "EstimatedArrivalDate": "2024-11-26T22:00:00",
+          "EstimatedArrivalDatePolFormatted": "Fri 4th Oct 2024 16:00",
+          "VesselName": "MSC ABIDJAN",
+          "DepartureVoyageNo": "IP440A",
+          "TotalTransitTime": "52 days",
+          "TotalTransitTimeHours": 1248,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP440A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-10-05T20:30:00",
+              "EstimatedDepartureTimeFormatted": "Sat 5th Oct 2024 18:30",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "MSC ABIDJAN",
+                "VesselImoCode": "9618264",
+                "VesselBuiltYear": "2013",
+                "VesselFlag": "PORTUGAL"
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": [
+                {
+                  "PortName": "HAZIRA PORT/SURAT",
+                  "PortCode": "INHZA",
+                  "EstimatedArrivalDate": "Sun 6th Oct 2024",
+                  "EstimatedDepartureDate": "Mon 7th Oct 2024",
+                  "EstimatedArrivalHour": "08:00",
+                  "EstimatedDepartureHour": "13:00"
+                },
+                {
+                  "PortName": "MUNDRA",
+                  "PortCode": "INMUN",
+                  "EstimatedArrivalDate": "Tue 8th Oct 2024",
+                  "EstimatedDepartureDate": "Thu 10th Oct 2024",
+                  "EstimatedArrivalHour": "18:00",
+                  "EstimatedDepartureHour": "10:00"
+                },
+                {
+                  "PortName": "JEBEL ALI",
+                  "PortCode": "AEJEA",
+                  "EstimatedArrivalDate": "Sun 22nd Sep 2024",
+                  "EstimatedDepartureDate": "Wed 23rd Oct 2024",
+                  "EstimatedArrivalHour": "12:00",
+                  "EstimatedDepartureHour": "12:00"
+                },
+                {
+                  "PortName": "FELIXSTOWE",
+                  "PortCode": "GBFXT",
+                  "EstimatedArrivalDate": "Tue 12th Nov 2024",
+                  "EstimatedDepartureDate": "Wed 13th Nov 2024",
+                  "EstimatedArrivalHour": "19:00",
+                  "EstimatedDepartureHour": "19:00"
+                },
+                {
+                  "PortName": "ROTTERDAM",
+                  "PortCode": "NLRTM",
+                  "EstimatedArrivalDate": "Thu 14th Nov 2024",
+                  "EstimatedDepartureDate": "Thu 14th Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "23:00"
+                },
+                {
+                  "PortName": "HAMBURG",
+                  "PortCode": "DEHAM",
+                  "EstimatedArrivalDate": "Sat 16th Nov 2024",
+                  "EstimatedDepartureDate": "Sun 17th Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "18:00"
+                },
+                {
+                  "PortName": "BREMERHAVEN",
+                  "PortCode": "DEBRV",
+                  "EstimatedArrivalDate": "Mon 18th Nov 2024",
+                  "EstimatedDepartureDate": "Tue 19th Nov 2024",
+                  "EstimatedArrivalHour": "14:00",
+                  "EstimatedDepartureHour": "14:00"
+                }
+              ]
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "TBN",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-11-22T07:00:00",
+              "EstimatedDepartureTimeFormatted": "Fri 22nd Nov 2024 06:00",
+              "EstimatedArrivalTime": "2024-11-20T19:00:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Wed 20th Nov 2024 18:00",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-11-26T22:00:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Tue 26th Nov 2024 21:00",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        },
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "Fri 11th Oct 2024 10:00",
+            "ReeferCutOffDate": "Fri 11th Oct 2024 10:00",
+            "DangerousCargoCutOffDate": "Tue 8th Oct 2024 16:00",
+            "ShippingInstructionsCutOffDate": "Tue 8th Oct 2024 15:00",
+            "VerifiedGrossMassCutOffDate": "Fri 11th Oct 2024 10:00"
+          },
+          "EstimatedDepartureDateFormatted": "Sat 12th Oct 2024",
+          "EstimatedDepartureDate": "2024-10-12T20:30:00",
+          "EstimatedArrivalDateFormatted": "Tue 3rd Dec 2024",
+          "EstimatedArrivalDate": "2024-12-03T22:00:00",
+          "EstimatedArrivalDatePolFormatted": "Fri 11th Oct 2024 16:00",
+          "VesselName": "MSC FAIRFIELD",
+          "DepartureVoyageNo": "IP441A",
+          "TotalTransitTime": "52 days",
+          "TotalTransitTimeHours": 1248,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP441A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-10-12T20:30:00",
+              "EstimatedDepartureTimeFormatted": "Sat 12th Oct 2024 18:30",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "MSC FAIRFIELD",
+                "VesselImoCode": "9302633",
+                "VesselBuiltYear": "2006",
+                "VesselFlag": "PORTUGAL"
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": [
+                {
+                  "PortName": "HAZIRA PORT/SURAT",
+                  "PortCode": "INHZA",
+                  "EstimatedArrivalDate": "Sun 13th Oct 2024",
+                  "EstimatedDepartureDate": "Mon 14th Oct 2024",
+                  "EstimatedArrivalHour": "08:00",
+                  "EstimatedDepartureHour": "13:00"
+                },
+                {
+                  "PortName": "MUNDRA",
+                  "PortCode": "INMUN",
+                  "EstimatedArrivalDate": "Tue 15th Oct 2024",
+                  "EstimatedDepartureDate": "Thu 17th Oct 2024",
+                  "EstimatedArrivalHour": "18:00",
+                  "EstimatedDepartureHour": "10:00"
+                },
+                {
+                  "PortName": "FELIXSTOWE",
+                  "PortCode": "GBFXT",
+                  "EstimatedArrivalDate": "Tue 19th Nov 2024",
+                  "EstimatedDepartureDate": "Wed 20th Nov 2024",
+                  "EstimatedArrivalHour": "19:00",
+                  "EstimatedDepartureHour": "19:00"
+                },
+                {
+                  "PortName": "ROTTERDAM",
+                  "PortCode": "NLRTM",
+                  "EstimatedArrivalDate": "Thu 21st Nov 2024",
+                  "EstimatedDepartureDate": "Thu 21st Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "23:00"
+                },
+                {
+                  "PortName": "HAMBURG",
+                  "PortCode": "DEHAM",
+                  "EstimatedArrivalDate": "Sat 23rd Nov 2024",
+                  "EstimatedDepartureDate": "Sun 24th Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "18:00"
+                },
+                {
+                  "PortName": "BREMERHAVEN",
+                  "PortCode": "DEBRV",
+                  "EstimatedArrivalDate": "Mon 25th Nov 2024",
+                  "EstimatedDepartureDate": "Tue 26th Nov 2024",
+                  "EstimatedArrivalHour": "14:00",
+                  "EstimatedDepartureHour": "14:00"
+                }
+              ]
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "TBN",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-11-29T07:00:00",
+              "EstimatedDepartureTimeFormatted": "Fri 29th Nov 2024 06:00",
+              "EstimatedArrivalTime": "2024-11-27T19:00:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Wed 27th Nov 2024 18:00",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-12-03T22:00:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Tue 3rd Dec 2024 21:00",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        },
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "Fri 18th Oct 2024 10:00",
+            "ReeferCutOffDate": "Fri 18th Oct 2024 10:00",
+            "DangerousCargoCutOffDate": "Tue 15th Oct 2024 16:00",
+            "ShippingInstructionsCutOffDate": "Tue 15th Oct 2024 15:00",
+            "VerifiedGrossMassCutOffDate": "Fri 18th Oct 2024 10:00"
+          },
+          "EstimatedDepartureDateFormatted": "Sat 19th Oct 2024",
+          "EstimatedDepartureDate": "2024-10-19T20:30:00",
+          "EstimatedArrivalDateFormatted": "Tue 10th Dec 2024",
+          "EstimatedArrivalDate": "2024-12-10T22:00:00",
+          "EstimatedArrivalDatePolFormatted": "Fri 18th Oct 2024 16:00",
+          "VesselName": "SCI DELHI",
+          "DepartureVoyageNo": "IP442A",
+          "TotalTransitTime": "52 days",
+          "TotalTransitTimeHours": 1248,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP442A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-10-19T20:30:00",
+              "EstimatedDepartureTimeFormatted": "Sat 19th Oct 2024 18:30",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "SCI DELHI",
+                "VesselImoCode": "9699127",
+                "VesselBuiltYear": "2014",
+                "VesselFlag": "LIBERIA"
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": [
+                {
+                  "PortName": "HAZIRA PORT/SURAT",
+                  "PortCode": "INHZA",
+                  "EstimatedArrivalDate": "Sun 20th Oct 2024",
+                  "EstimatedDepartureDate": "Mon 21st Oct 2024",
+                  "EstimatedArrivalHour": "08:00",
+                  "EstimatedDepartureHour": "13:00"
+                },
+                {
+                  "PortName": "MUNDRA",
+                  "PortCode": "INMUN",
+                  "EstimatedArrivalDate": "Tue 22nd Oct 2024",
+                  "EstimatedDepartureDate": "Thu 24th Oct 2024",
+                  "EstimatedArrivalHour": "18:00",
+                  "EstimatedDepartureHour": "10:00"
+                },
+                {
+                  "PortName": "FELIXSTOWE",
+                  "PortCode": "GBFXT",
+                  "EstimatedArrivalDate": "Tue 26th Nov 2024",
+                  "EstimatedDepartureDate": "Wed 27th Nov 2024",
+                  "EstimatedArrivalHour": "19:00",
+                  "EstimatedDepartureHour": "19:00"
+                },
+                {
+                  "PortName": "ROTTERDAM",
+                  "PortCode": "NLRTM",
+                  "EstimatedArrivalDate": "Thu 28th Nov 2024",
+                  "EstimatedDepartureDate": "Thu 28th Nov 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "23:00"
+                },
+                {
+                  "PortName": "HAMBURG",
+                  "PortCode": "DEHAM",
+                  "EstimatedArrivalDate": "Sat 30th Nov 2024",
+                  "EstimatedDepartureDate": "Sun 1st Dec 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "18:00"
+                },
+                {
+                  "PortName": "BREMERHAVEN",
+                  "PortCode": "DEBRV",
+                  "EstimatedArrivalDate": "Mon 2nd Dec 2024",
+                  "EstimatedDepartureDate": "Tue 3rd Dec 2024",
+                  "EstimatedArrivalHour": "14:00",
+                  "EstimatedDepartureHour": "14:00"
+                }
+              ]
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "TBN",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-12-06T07:00:00",
+              "EstimatedDepartureTimeFormatted": "Fri 6th Dec 2024 06:00",
+              "EstimatedArrivalTime": "2024-12-04T19:00:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Wed 4th Dec 2024 18:00",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-12-10T22:00:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Tue 10th Dec 2024 21:00",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        },
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "Thu 31st Oct 2024 23:00",
+            "ReeferCutOffDate": "Thu 31st Oct 2024 23:00",
+            "DangerousCargoCutOffDate": "Tue 29th Oct 2024 05:00",
+            "ShippingInstructionsCutOffDate": "Tue 29th Oct 2024 15:00",
+            "VerifiedGrossMassCutOffDate": "Thu 31st Oct 2024 23:00"
+          },
+          "EstimatedDepartureDateFormatted": "Sun 27th Oct 2024",
+          "EstimatedDepartureDate": "2024-10-27T19:30:00",
+          "EstimatedArrivalDateFormatted": "Wed 18th Dec 2024",
+          "EstimatedArrivalDate": "2024-12-18T14:00:00",
+          "EstimatedArrivalDatePolFormatted": "Sat 26th Oct 2024 16:00",
+          "VesselName": "MSC GIOVANNA VII",
+          "DepartureVoyageNo": "IP443A",
+          "TotalTransitTime": "52 days",
+          "TotalTransitTimeHours": 1248,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP443A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-10-27T19:30:00",
+              "EstimatedDepartureTimeFormatted": "Sun 27th Oct 2024 18:30",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "MSC GIOVANNA VII",
+                "VesselImoCode": "9153850",
+                "VesselBuiltYear": "1998",
+                "VesselFlag": "LIBERIA"
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": [
+                {
+                  "PortName": "HAZIRA PORT/SURAT",
+                  "PortCode": "INHZA",
+                  "EstimatedArrivalDate": "Mon 28th Oct 2024",
+                  "EstimatedDepartureDate": "Tue 29th Oct 2024",
+                  "EstimatedArrivalHour": "08:00",
+                  "EstimatedDepartureHour": "13:00"
+                },
+                {
+                  "PortName": "MUNDRA",
+                  "PortCode": "INMUN",
+                  "EstimatedArrivalDate": "Wed 30th Oct 2024",
+                  "EstimatedDepartureDate": "Fri 1st Nov 2024",
+                  "EstimatedArrivalHour": "18:00",
+                  "EstimatedDepartureHour": "10:00"
+                },
+                {
+                  "PortName": "FELIXSTOWE",
+                  "PortCode": "GBFXT",
+                  "EstimatedArrivalDate": "Wed 4th Dec 2024",
+                  "EstimatedDepartureDate": "Thu 5th Dec 2024",
+                  "EstimatedArrivalHour": "19:00",
+                  "EstimatedDepartureHour": "19:00"
+                },
+                {
+                  "PortName": "ROTTERDAM",
+                  "PortCode": "NLRTM",
+                  "EstimatedArrivalDate": "Fri 6th Dec 2024",
+                  "EstimatedDepartureDate": "Fri 6th Dec 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "23:00"
+                },
+                {
+                  "PortName": "HAMBURG",
+                  "PortCode": "DEHAM",
+                  "EstimatedArrivalDate": "Sun 8th Dec 2024",
+                  "EstimatedDepartureDate": "Mon 9th Dec 2024",
+                  "EstimatedArrivalHour": "07:00",
+                  "EstimatedDepartureHour": "18:00"
+                },
+                {
+                  "PortName": "BREMERHAVEN",
+                  "PortCode": "DEBRV",
+                  "EstimatedArrivalDate": "Tue 10th Dec 2024",
+                  "EstimatedDepartureDate": "Wed 11th Dec 2024",
+                  "EstimatedArrivalHour": "06:00",
+                  "EstimatedDepartureHour": "06:00"
+                }
+              ]
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "TBN",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-12-13T23:00:00",
+              "EstimatedDepartureTimeFormatted": "Fri 13th Dec 2024 22:00",
+              "EstimatedArrivalTime": "2024-12-12T11:00:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Thu 12th Dec 2024 10:00",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-12-18T14:00:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Wed 18th Dec 2024 13:00",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        },
+        {
+          "CO2FootPrint": "0.7611 Tons",
+          "CutOffs": {
+            "ContainerYardCutOffDate": "",
+            "ReeferCutOffDate": "",
+            "DangerousCargoCutOffDate": "",
+            "ShippingInstructionsCutOffDate": "",
+            "VerifiedGrossMassCutOffDate": ""
+          },
+          "EstimatedDepartureDateFormatted": "Sat 2nd Nov 2024",
+          "EstimatedDepartureDate": "2024-11-02T19:30:00",
+          "EstimatedArrivalDateFormatted": "Tue 24th Dec 2024",
+          "EstimatedArrivalDate": "2024-12-24T22:30:00",
+          "EstimatedArrivalDatePolFormatted": "",
+          "VesselName": "TBN",
+          "DepartureVoyageNo": "IP444A",
+          "TotalTransitTime": "52 days",
+          "TotalTransitTimeHours": 1248,
+          "RouteScheduleLegDetails": [
+            {
+              "LegSequence": 1,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "IP444A",
+              "DeparturePortUNCode": "INNSA",
+              "DeparturePortId": 31,
+              "DeparturePortName": "NHAVA SHEVA",
+              "DepartureEquipmentHandlingFacilityName": "NHAVA SHEVA INTERNATIONAL GATEWAY TERMINAL",
+              "EstimatedDepartureTime": "2024-11-02T19:30:00",
+              "EstimatedDepartureTimeFormatted": "Sat 2nd Nov 2024 18:30",
+              "EstimatedArrivalTime": null,
+              "ArrivalPortUNCode": null,
+              "ArrivalPortPortId": null,
+              "ArrivalPortName": null,
+              "ArrivalEquipmentHandlingFacilityName": null,
+              "EstimatedArrivalTimeFormatted": null,
+              "CO2FootPrint": "0.6199 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO IPAK",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 2,
+              "SingleLegOnly": false,
+              "LastLeg": false,
+              "DepartureVoyageNo": "TBN",
+              "DeparturePortUNCode": "BEANR",
+              "DeparturePortId": 481,
+              "DeparturePortName": "ANTWERP",
+              "DepartureEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedDepartureTime": "2024-12-20T07:30:00",
+              "EstimatedDepartureTimeFormatted": "Fri 20th Dec 2024 06:30",
+              "EstimatedArrivalTime": "2024-12-18T19:30:00",
+              "ArrivalPortUNCode": "BEANR",
+              "ArrivalPortPortId": 481,
+              "ArrivalPortName": "ANTWERP",
+              "ArrivalEquipmentHandlingFacilityName": "MPET K1742 DEURGANCK TERMINAL",
+              "EstimatedArrivalTimeFormatted": "Wed 18th Dec 2024 18:30",
+              "CO2FootPrint": "0.1412 Tons",
+              "Vessel": {
+                "VesselName": "TBN",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": "NWC TO/FROM IRELAND & PORTBURY FEEDER SERVICE",
+              "PortCalls": []
+            },
+            {
+              "LegSequence": 3,
+              "SingleLegOnly": false,
+              "LastLeg": true,
+              "DepartureVoyageNo": null,
+              "DeparturePortUNCode": null,
+              "DeparturePortId": null,
+              "DeparturePortName": null,
+              "DepartureEquipmentHandlingFacilityName": null,
+              "EstimatedDepartureTime": null,
+              "EstimatedDepartureTimeFormatted": null,
+              "EstimatedArrivalTime": "2024-12-24T22:30:00",
+              "ArrivalPortUNCode": "IEDUB",
+              "ArrivalPortPortId": 329,
+              "ArrivalPortName": "DUBLIN",
+              "ArrivalEquipmentHandlingFacilityName": "DFT",
+              "EstimatedArrivalTimeFormatted": "Tue 24th Dec 2024 21:30",
+              "CO2FootPrint": null,
+              "Vessel": {
+                "VesselName": "",
+                "VesselImoCode": null,
+                "VesselBuiltYear": null,
+                "VesselFlag": null
+              },
+              "MaritimeServiceName": null,
+              "PortCalls": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ResultTimestamp": "Search schedule results provided by MSC on 13.09.2024 at 14:26 Central Europe Standard Time"
+}

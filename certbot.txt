@@ -1,0 +1,79 @@
+certbot certonly --standalone -d intranetapi.lupaair.com
+
+certbot certonly --standalone -d uifeed.tracking.intemo.tech 
+
+openssl pkcs12 -export -out C:\Certbot\live\uifeed.tracking.intemo.tech\certificate.pfx -inkey C:\Certbot\live\uifeed.tracking.intemo.tech\privkey.pem -in C:\Certbot\live\uifeed.tracking.intemo.tech\fullchain.pem
+
+openssl pkcs12 -export -out C:\Certbot\live\uifeed.tracking.intemo.tech\certificate.pfx -inkey C:\Certbot\live\uifeed.tracking.intemo.tech\privkey.pem -in C:\Certbot\live\uifeed.tracking.intemo.tech\fullchain.pem
+
+openssl pkcs12 -export -out C:\Certbot\live\devapi.lupaair.com\certificate.pfx -inkey C:\Certbot\live\devapi.lupaair.com\privkey.pem -in C:\Certbot\live\devapi.lupaair.com\fullchain.pem
+
+openssl pkcs12 -export -out C:\Certbot\live\oceandevapi.lupaair.com\certificate.pfx -inkey C:\Certbot\live\oceandevapi.lupaair.com\privkey.pem -in C:\Certbot\live\oceandevapi.lupaair.com\fullchain.pem
+
+openssl pkcs12 -export -out C:\Certbot\live\intranetseaapi.lupaair.com\certificate.pfx -inkey C:\Certbot\live\intranetseaapi.lupaair.com\privkey.pem -in C:\Certbot\live\intranetseaapi.lupaair.com\fullchain.pem
+
+certbot certonly --standalone -d intranetseaapi.lupaair.com
+
+
+
+
+ONEY Liner Testing Numbers
+==========================
+TCKU1385926
+MEBU3260500
+SEGU2059558
+KKFU7869967
+TCLU2510085
+NYKU3764573
+TLLU5501742
+TRHU7009858
+ONEYTS4TS2635700 => BL
+ONEYTS4TS2799400 => BL
+ONEU5005531
+NYKU9714271
+ONEU0018691
+ONEU5208734
+TCNU5264260
+
+KKFU8103261 => tracking ended for testing
+
+Analytics test
+==============
+176-70044796 
+217-97452924 
+
+
+intemo-ocean-backend982024101711 => 12/08/24
+
+ZIM Liner Testing Numbers
+==========================
+CT
+==
+
+JZPU4094644
+CAIU3500850
+TEMU1049741 
+TRHU3334649
+ZIMU3126500
+
+BL
+==
+
+ZIMUTUT6032267
+ZIMURQL6198970
+ZIMURQL6199814
+ZIMURQL6200414
+ZIMUBOM6403889
+ZIMURQL6200715
+ZIMUHFA4321586
+
+ZIMURQL6200715
+
+intemo-ocean-backend1382024123331 => revert
+Jebel Ali
+United Arab Emirates
+
+
+https://ecomm.one-line.com/one-ecom/schedule/point-to-point-schedule
+
+https://www.msc.com/en/search-a-schedule

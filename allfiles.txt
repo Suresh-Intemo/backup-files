@@ -1,0 +1,53 @@
+sureshm032@ => hmm
+
+suryap032@ => hmm
+
+
+AUSYD USNPP
+AEJEA USJFK
+
+
+
+nc -zv localhost 9094
+nc -zv k8s-default-intemoka-1fe9a5ff7c-70c96fe70bb05c20.elb.ap-south-1.amazonaws.com 9094
+nc -zv k8s-default-intemoka-1fe9a5ff7c-70c96fe70bb05c20.elb.ap-south-1.amazonaws.com 9094
+
+
+bin/kafka-console-producer.sh --broker-list k8s-default-intemoka-1fe9a5ff7c-70c96fe70bb05c20.elb.ap-south-1.amazonaws.com:9094
+
+kops update cluster --name=kops.staging.intemo.tech --state=s3://ff-webapp-staging-cluster-state --yes
+
+⇒ Apply kubeconfig after run rolling update
+
+kops rolling-update cluster --name=kops.staging.intemo.tech --state=s3://ff-webapp-staging-cluster-state --yes
+
+kops validate cluster --wait 10m  --name=kops.staging.intemo.tech --state=s3://ff-webapp-staging-cluster-state
+
+eksctl create iamserviceaccount  --name ebs-csi-controller-sa  --namespace kube-system  --cluster idp-cluster  --role-name EBS_CSI_driver_IDP --attach-policy-arn arn:aws:iam::aws:policy/service-role/AmazonEBSCSIDriverPolicy  --approve
+
+eksctl create addon --name aws-ebs-csi-driver --cluster idp-cluster --service-account-role-arn arn:aws:iam::885876711116:role/EBS_CSI_driver_IDP --force
+
+afec330ac85a54fdfa92ef5405b0749c-81013170.ap-south-1.elb.amazonaws.com => idp db host
+
+helm install aws-load-balancer-controller eks/aws-load-balancer-controller  -n  kube-system  --set clusterName=idp-cluster  --set serviceAccount.create=false --set serviceAccount.name=aws-load-balancer-controller
+
+kops create cluster --name=kops.kafkacluster.intemo.tech  --state=s3://kafkacluster-kops-state-storage-cluster  --zones=ap-south-1a --node-count=1 --dry-run -o yaml > kafkacluster-kops-cluster.yaml
+
+kops create secret --name=kops.kafkacluster.intemo.tech --state=s3://kafkacluster-kops-state-storage-cluster sshpublickey admin -i ~/.ssh/id_rsa.pub
+
+kops create -f .\erp-kops-instance-group.yaml  --name=kops.kafkacluster.intemo.tech --state=s3://kafkacluster-kops-state-storage-cluster
+
+kops update cluster --name=kops.kafkacluster.intemo.tech --state=s3://kafkacluster-kops-state-storage-cluster --yes
+
+kops export kubeconfig --admin  --name=kops.kafkacluster.intemo.tech --state=s3://kafkacluster-kops-state-storage-cluster
+
+kops rolling-update cluster --name=kops.kafkacluster.intemo.tech  --state=s3://kafkacluster-kops-state-storage-cluster --yes
+
+kops validate cluster --wait 10m  --name=kops.kafkacluster.intemo.tech --state=s3://kafkacluster-kops-state-storage-cluster
+
+
+bin/kafka-topics.sh --bootstrap-server localhost:9094 --list
+
+
+
+

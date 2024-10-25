@@ -1,0 +1,97 @@
+[
+  {
+    "shipmentDeadlines": {
+      "terminalName": "Jawaharlal Nehru NSICT DPW",
+      "deadlines": [
+        {
+          "deadlineName": "Commercial Cargo Cutoff",
+          "deadlineLocal": "2024-10-16T05:00:00"
+        },
+        {
+          "deadlineName": "Special Cargo Documentation Deadline",
+          "deadlineLocal": "2024-10-15T17:30:00"
+        },
+        {
+          "deadlineName": "Shipping Instructions Deadline",
+          "deadlineLocal": "2024-10-14T14:00:00"
+        },
+        {
+          "deadlineName": "Commercial Verified Gross Mass Deadline",
+          "deadlineLocal": "2024-10-15T18:00:00"
+        }
+      ]
+    }
+  }
+][
+  {
+    "shipmentDeadlines": {
+      "terminalName": "Jawaharlal Nehru NSICT DPW",
+      "deadlines": [
+        {
+          "deadlineName": "Commercial Cargo Cutoff",
+          "deadlineLocal": "2024-10-23T05:00:00"
+        },
+        {
+          "deadlineName": "Special Cargo Documentation Deadline",
+          "deadlineLocal": "2024-10-22T17:30:00"
+        },
+        {
+          "deadlineName": "Shipping Instructions Deadline",
+          "deadlineLocal": "2024-10-21T14:00:00"
+        },
+        {
+          "deadlineName": "Commercial Verified Gross Mass Deadline",
+          "deadlineLocal": "2024-10-22T18:00:00"
+        }
+      ]
+    }
+  }
+][
+  {
+    "shipmentDeadlines": {
+      "terminalName": "Jawaharlal Nehru NSICT DPW",
+      "deadlines": [
+        {
+          "deadlineName": "Commercial Cargo Cutoff",
+          "deadlineLocal": "2024-10-30T01:00:00"
+        },
+        {
+          "deadlineName": "Special Cargo Documentation Deadline",
+          "deadlineLocal": "2024-10-29T17:30:00"
+        },
+        {
+          "deadlineName": "Shipping Instructions Deadline",
+          "deadlineLocal": "2024-10-28T14:00:00"
+        },
+        {
+          "deadlineName": "Commercial Verified Gross Mass Deadline",
+          "deadlineLocal": "2024-10-29T00:00:00"
+        }
+      ]
+    }
+  }
+][
+  {
+    "shipmentDeadlines": {
+      "terminalName": "Jawaharlal Nehru NSICT DPW",
+      "deadlines": [
+        {
+          "deadlineName": "Commercial Cargo Cutoff",
+          "deadlineLocal": "2024-11-06T01:00:00"
+        },
+        {
+          "deadlineName": "Special Cargo Documentation Deadline",
+          "deadlineLocal": "2024-11-05T17:30:00"
+        },
+        {
+          "deadlineName": "Shipping Instructions Deadline",
+          "deadlineLocal": "2024-11-04T14:00:00"
+        },
+        {
+          "deadlineName": "Commercial Verified Gross Mass Deadline",
+          "deadlineLocal": "2024-11-05T18:00:00"
+        }
+      ]
+    }
+  }
+]

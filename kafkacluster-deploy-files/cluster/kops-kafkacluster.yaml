@@ -1,0 +1,68 @@
+apiVersion: kops.k8s.io/v1alpha2
+kind: Cluster
+metadata:
+  creationTimestamp: null
+  name: kops.kafkacluster.intemo.tech
+spec:
+  api:
+    dns: {}
+  authorization:
+    rbac: {}
+  awsLoadBalancerController:
+    enabled: true
+  certManager:
+    enabled: true
+  channel: stable
+  cloudProvider: aws
+  configBase: s3://kafkacluster-kops-state-storage-cluster/kops.kafkacluster.intemo.tech
+  etcdClusters:
+  - cpuRequest: 200m
+    etcdMembers:
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-south-1a
+      name: a
+    manager:
+      backupRetentionDays: 90
+    memoryRequest: 100Mi
+    name: main
+  - cpuRequest: 100m
+    etcdMembers:
+    - encryptedVolume: true
+      instanceGroup: control-plane-ap-south-1a
+      name: a
+    manager:
+      backupRetentionDays: 90
+    memoryRequest: 100Mi
+    name: events
+  iam:
+    allowContainerRegistry: true
+    legacy: false
+  kubeProxy:
+    enabled: false
+  kubelet:
+    anonymousAuth: false
+  kubernetesApiAccess:
+  - 0.0.0.0/0
+  - ::/0
+  kubernetesVersion: 1.29.6
+  networkCIDR: 188.10.0.0/16
+  networking:
+    cilium:
+      enableNodePort: true
+  nonMasqueradeCIDR: 100.64.0.0/10
+  sshAccess:
+  - 0.0.0.0/0
+  - ::/0
+  subnets:
+  - cidr: 188.10.10.0/24
+    name: ap-south-1a
+    type: Public
+    zone: ap-south-1a
+  - cidr: 188.10.20.0/24
+    name: ap-south-1b
+    type: Public
+    zone: ap-south-1b
+  topology:
+    dns:
+      type: Public
+

@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: kafkacluster-ingress
+  annotations:
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS":443}]'
+    alb.ingress.kubernetes.io/subnets: subnet-02a7d9df946fcfa2f ,subnet-02c475b1ec8118d96
+    alb.ingress.kubernetes.io/actions.ssl-redirect: '{"Type": "redirect", "RedirectConfig": { "Protocol": "HTTPS", "Port": "443", "StatusCode": "HTTP_301"}}'
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-south-1:885876711116:certificate/58574226-b867-4d01-8f86-02a6a8c22706
+spec:
+  ingressClassName: alb
+  rules:
+    - host: test.kafkacluster.intemo.tech
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: intemo-kafka-cluster-kafka-external-bootstrap
+                port:
+                  number: 9094

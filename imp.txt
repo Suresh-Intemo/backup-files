@@ -1,0 +1,27 @@
+intemo-ocean-backend97202417275 = 10/07
+
+CREATE ROLE sealine WITH LOGIN PASSWORD '2OHQZlrE7iI9z11';
+
+GRANT ALL PRIVILEGES ON DATABASE SealineTracker-DB TO sealine;
+
+helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n kube-system --set clusterName=user-management-cluster --set serviceAccount.create=false --set serviceAccount.name=aws-load-balancer-controller
+
+VITE_REACT_APP_API_URL="https://api.ocean.intemo.tech"
+VITE_REACT_APP_FRONT_END_URL="https://app.ocean.intemo.tech"
+VITE_REACT_APP_USER_API_URL="https://usersapi.intemo.tech"
+VITE_REACT_APP_USER_FRONT_END_URL="https://users.intemo.tech"
+VITE_REACT_APP_SCRAPING_URL="https://oceandevapi.lupaair.com"
+
+kops replace -f   --name=kops.trial.idp.intemo.tech --state=s3://idp-kops-state-storage-cluster 
+
+View and delete replication slots
+SELECT * FROM pg_replication_slots
+SELECT pg_drop_replication_slot('oceansourceupdate');
+
+https://slproweb.com/products/Win32OpenSSL.html ==> openssl install
+
+certbot certonly --standalone --preferred-challenges http -d intranetseaapi.lupaair.com
+
+certbot certonly --standalone -d intranetseaapi.lupaair.com
+
+openssl pkcs12 -export -out C:\Certbot\live\intranetseaapi.lupaair.com\certificate.pfx -inkey C:\Certbot\live\intranetseaapi.lupaair.com\privkey.pem -in C:\Certbot\live\intranetseaapi.lupaair.com\fullchain.pem

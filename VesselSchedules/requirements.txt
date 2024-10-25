@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+selenium_driverless
+requests

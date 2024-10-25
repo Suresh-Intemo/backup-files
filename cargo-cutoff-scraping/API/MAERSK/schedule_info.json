@@ -1,0 +1,342 @@
+{
+  "oceanProducts": [
+    {
+      "carrierProductId": "44735418",
+      "carrierProductSequenceId": "1",
+      "productValidFromDate": "2020-10-14",
+      "productValidToDate": "4712-12-31",
+      "numberOfProductLinks": "1",
+      "transportSchedules": [
+        {
+          "departureDateTime": "2024-10-17T10:00:00",
+          "arrivalDateTime": "2024-10-21T01:00:00",
+          "facilities": {
+            "collectionOrigin": {
+              "carrierCityGeoID": "20JS07ETK8AE1",
+              "cityName": "Jawaharlal Nehru",
+              "carrierSiteGeoID": "20JWFD10UBY3H",
+              "locationName": "Jawaharlal Nehru NSICT DPW",
+              "countryCode": "IN",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "INNSA",
+              "siteUNLocationCode": "INNSA",
+              "cityUNLocationCode": "INNSA",
+              "UNRegionCode": "MH"
+            },
+            "deliveryDestination": {
+              "carrierCityGeoID": "31RTK5H2BLBS3",
+              "cityName": "Jebel Ali",
+              "carrierSiteGeoID": "035ZCENG0J317",
+              "locationName": "Jebel Ali Terminal 2",
+              "countryCode": "AE",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "AEJEA",
+              "siteUNLocationCode": "AEJEA",
+              "cityUNLocationCode": "AEJEA"
+            }
+          },
+          "firstDepartureVessel": {
+            "vesselIMONumber": "9193276",
+            "carrierVesselCode": "767",
+            "vesselName": "GRASMERE MAERSK"
+          },
+          "transitTime": "5220",
+          "transportLegs": [
+            {
+              "departureDateTime": "2024-10-17T10:00:00",
+              "arrivalDateTime": "2024-10-21T01:00:00",
+              "facilities": {
+                "startLocation": {
+                  "carrierCityGeoID": "20JS07ETK8AE1",
+                  "cityName": "Jawaharlal Nehru",
+                  "carrierSiteGeoID": "20JWFD10UBY3H",
+                  "locationName": "Jawaharlal Nehru NSICT DPW",
+                  "countryCode": "IN",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "INNSA",
+                  "siteUNLocationCode": "INNSA",
+                  "cityUNLocationCode": "INNSA",
+                  "UNRegionCode": "MH"
+                },
+                "endLocation": {
+                  "carrierCityGeoID": "31RTK5H2BLBS3",
+                  "cityName": "Jebel Ali",
+                  "carrierSiteGeoID": "035ZCENG0J317",
+                  "locationName": "Jebel Ali Terminal 2",
+                  "countryCode": "AE",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "AEJEA",
+                  "siteUNLocationCode": "AEJEA",
+                  "cityUNLocationCode": "AEJEA"
+                }
+              },
+              "transport": {
+                "transportMode": "MVS",
+                "vessel": {
+                  "vesselIMONumber": "9193276",
+                  "carrierVesselCode": "767",
+                  "vesselName": "GRASMERE MAERSK"
+                },
+                "carrierTradeLaneName": "MEA/MEA",
+                "carrierDepartureVoyageNumber": "442W",
+                "inducementLinkFlag": "false",
+                "carrierServiceCode": "28A",
+                "carrierServiceName": "BLUE NILE EXPRESS",
+                "linkDirection": "W",
+                "carrierCode": "F428AM",
+                "routingType": "M"
+              }
+            }
+          ]
+        },
+        {
+          "departureDateTime": "2024-10-24T10:00:00",
+          "arrivalDateTime": "2024-10-28T01:00:00",
+          "facilities": {
+            "collectionOrigin": {
+              "carrierCityGeoID": "20JS07ETK8AE1",
+              "cityName": "Jawaharlal Nehru",
+              "carrierSiteGeoID": "20JWFD10UBY3H",
+              "locationName": "Jawaharlal Nehru NSICT DPW",
+              "countryCode": "IN",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "INNSA",
+              "siteUNLocationCode": "INNSA",
+              "cityUNLocationCode": "INNSA",
+              "UNRegionCode": "MH"
+            },
+            "deliveryDestination": {
+              "carrierCityGeoID": "31RTK5H2BLBS3",
+              "cityName": "Jebel Ali",
+              "carrierSiteGeoID": "035ZCENG0J317",
+              "locationName": "Jebel Ali Terminal 2",
+              "countryCode": "AE",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "AEJEA",
+              "siteUNLocationCode": "AEJEA",
+              "cityUNLocationCode": "AEJEA"
+            }
+          },
+          "firstDepartureVessel": {
+            "vesselIMONumber": "9694579",
+            "carrierVesselCode": "3MM",
+            "vesselName": "MAERSK DANUBE"
+          },
+          "transitTime": "5220",
+          "transportLegs": [
+            {
+              "departureDateTime": "2024-10-24T10:00:00",
+              "arrivalDateTime": "2024-10-28T01:00:00",
+              "facilities": {
+                "startLocation": {
+                  "carrierCityGeoID": "20JS07ETK8AE1",
+                  "cityName": "Jawaharlal Nehru",
+                  "carrierSiteGeoID": "20JWFD10UBY3H",
+                  "locationName": "Jawaharlal Nehru NSICT DPW",
+                  "countryCode": "IN",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "INNSA",
+                  "siteUNLocationCode": "INNSA",
+                  "cityUNLocationCode": "INNSA",
+                  "UNRegionCode": "MH"
+                },
+                "endLocation": {
+                  "carrierCityGeoID": "31RTK5H2BLBS3",
+                  "cityName": "Jebel Ali",
+                  "carrierSiteGeoID": "035ZCENG0J317",
+                  "locationName": "Jebel Ali Terminal 2",
+                  "countryCode": "AE",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "AEJEA",
+                  "siteUNLocationCode": "AEJEA",
+                  "cityUNLocationCode": "AEJEA"
+                }
+              },
+              "transport": {
+                "transportMode": "MVS",
+                "vessel": {
+                  "vesselIMONumber": "9694579",
+                  "carrierVesselCode": "3MM",
+                  "vesselName": "MAERSK DANUBE"
+                },
+                "carrierTradeLaneName": "MEA/MEA",
+                "carrierDepartureVoyageNumber": "443W",
+                "inducementLinkFlag": "false",
+                "carrierServiceCode": "28A",
+                "carrierServiceName": "BLUE NILE EXPRESS",
+                "linkDirection": "W",
+                "carrierCode": "F428AM",
+                "routingType": "M"
+              }
+            }
+          ]
+        },
+        {
+          "departureDateTime": "2024-10-31T10:00:00",
+          "arrivalDateTime": "2024-11-04T01:00:00",
+          "facilities": {
+            "collectionOrigin": {
+              "carrierCityGeoID": "20JS07ETK8AE1",
+              "cityName": "Jawaharlal Nehru",
+              "carrierSiteGeoID": "20JWFD10UBY3H",
+              "locationName": "Jawaharlal Nehru NSICT DPW",
+              "countryCode": "IN",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "INNSA",
+              "siteUNLocationCode": "INNSA",
+              "cityUNLocationCode": "INNSA",
+              "UNRegionCode": "MH"
+            },
+            "deliveryDestination": {
+              "carrierCityGeoID": "31RTK5H2BLBS3",
+              "cityName": "Jebel Ali",
+              "carrierSiteGeoID": "035ZCENG0J317",
+              "locationName": "Jebel Ali Terminal 2",
+              "countryCode": "AE",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "AEJEA",
+              "siteUNLocationCode": "AEJEA",
+              "cityUNLocationCode": "AEJEA"
+            }
+          },
+          "firstDepartureVessel": {
+            "vesselIMONumber": "9193276",
+            "carrierVesselCode": "767",
+            "vesselName": "GRASMERE MAERSK"
+          },
+          "transitTime": "5220",
+          "transportLegs": [
+            {
+              "departureDateTime": "2024-10-31T10:00:00",
+              "arrivalDateTime": "2024-11-04T01:00:00",
+              "facilities": {
+                "startLocation": {
+                  "carrierCityGeoID": "20JS07ETK8AE1",
+                  "cityName": "Jawaharlal Nehru",
+                  "carrierSiteGeoID": "20JWFD10UBY3H",
+                  "locationName": "Jawaharlal Nehru NSICT DPW",
+                  "countryCode": "IN",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "INNSA",
+                  "siteUNLocationCode": "INNSA",
+                  "cityUNLocationCode": "INNSA",
+                  "UNRegionCode": "MH"
+                },
+                "endLocation": {
+                  "carrierCityGeoID": "31RTK5H2BLBS3",
+                  "cityName": "Jebel Ali",
+                  "carrierSiteGeoID": "035ZCENG0J317",
+                  "locationName": "Jebel Ali Terminal 2",
+                  "countryCode": "AE",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "AEJEA",
+                  "siteUNLocationCode": "AEJEA",
+                  "cityUNLocationCode": "AEJEA"
+                }
+              },
+              "transport": {
+                "transportMode": "MVS",
+                "vessel": {
+                  "vesselIMONumber": "9193276",
+                  "carrierVesselCode": "767",
+                  "vesselName": "GRASMERE MAERSK"
+                },
+                "carrierTradeLaneName": "MEA/MEA",
+                "carrierDepartureVoyageNumber": "444W",
+                "inducementLinkFlag": "false",
+                "carrierServiceCode": "28A",
+                "carrierServiceName": "BLUE NILE EXPRESS",
+                "linkDirection": "W",
+                "carrierCode": "F428AM",
+                "routingType": "M"
+              }
+            }
+          ]
+        },
+        {
+          "departureDateTime": "2024-11-07T10:00:00",
+          "arrivalDateTime": "2024-11-11T01:00:00",
+          "facilities": {
+            "collectionOrigin": {
+              "carrierCityGeoID": "20JS07ETK8AE1",
+              "cityName": "Jawaharlal Nehru",
+              "carrierSiteGeoID": "20JWFD10UBY3H",
+              "locationName": "Jawaharlal Nehru NSICT DPW",
+              "countryCode": "IN",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "INNSA",
+              "siteUNLocationCode": "INNSA",
+              "cityUNLocationCode": "INNSA",
+              "UNRegionCode": "MH"
+            },
+            "deliveryDestination": {
+              "carrierCityGeoID": "31RTK5H2BLBS3",
+              "cityName": "Jebel Ali",
+              "carrierSiteGeoID": "035ZCENG0J317",
+              "locationName": "Jebel Ali Terminal 2",
+              "countryCode": "AE",
+              "locationType": "TERMINAL",
+              "UNLocationCode": "AEJEA",
+              "siteUNLocationCode": "AEJEA",
+              "cityUNLocationCode": "AEJEA"
+            }
+          },
+          "firstDepartureVessel": {
+            "vesselIMONumber": "9694579",
+            "carrierVesselCode": "3MM",
+            "vesselName": "MAERSK DANUBE"
+          },
+          "transitTime": "5220",
+          "transportLegs": [
+            {
+              "departureDateTime": "2024-11-07T10:00:00",
+              "arrivalDateTime": "2024-11-11T01:00:00",
+              "facilities": {
+                "startLocation": {
+                  "carrierCityGeoID": "20JS07ETK8AE1",
+                  "cityName": "Jawaharlal Nehru",
+                  "carrierSiteGeoID": "20JWFD10UBY3H",
+                  "locationName": "Jawaharlal Nehru NSICT DPW",
+                  "countryCode": "IN",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "INNSA",
+                  "siteUNLocationCode": "INNSA",
+                  "cityUNLocationCode": "INNSA",
+                  "UNRegionCode": "MH"
+                },
+                "endLocation": {
+                  "carrierCityGeoID": "31RTK5H2BLBS3",
+                  "cityName": "Jebel Ali",
+                  "carrierSiteGeoID": "035ZCENG0J317",
+                  "locationName": "Jebel Ali Terminal 2",
+                  "countryCode": "AE",
+                  "locationType": "TERMINAL",
+                  "UNLocationCode": "AEJEA",
+                  "siteUNLocationCode": "AEJEA",
+                  "cityUNLocationCode": "AEJEA"
+                }
+              },
+              "transport": {
+                "transportMode": "MVS",
+                "vessel": {
+                  "vesselIMONumber": "9694579",
+                  "carrierVesselCode": "3MM",
+                  "vesselName": "MAERSK DANUBE"
+                },
+                "carrierTradeLaneName": "MEA/MEA",
+                "carrierDepartureVoyageNumber": "445W",
+                "inducementLinkFlag": "false",
+                "carrierServiceCode": "28A",
+                "carrierServiceName": "BLUE NILE EXPRESS",
+                "linkDirection": "W",
+                "carrierCode": "F428AM",
+                "routingType": "M"
+              }
+            }
+          ]
+        }
+      ],
+      "vesselOperatorCarrierCode": "MAEU"
+    }
+  ]
+}

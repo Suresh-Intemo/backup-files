@@ -1,0 +1,14 @@
+{
+  "sec-ch-ua": "\"Chromium\";v=\"128\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"128\"",
+  "X-Client-Timestamp": "1727767521204",
+  "language": "en_US",
+  "Accept-Language": "en-US,en;q=0.9",
+  "sec-ch-ua-mobile": "?0",
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+  "Content-Type": "application/json",
+  "Accept": "*/*",
+  "Referer": "https://elines.coscoshipping.com/ebusiness/sailingSchedule/searchByCity/resultByCity",
+  "sys": "eb",
+  "sec-ch-ua-platform": "\"Windows\"",
+  "Cookie": "HBB_HC=08c0bc70e87f48e42a25da1ab634f9554aa453a9c0f34c367f86b3e68e4bfa3a58873b4535287d614a30b490028de68769; HMACCOUNT=C085F23217883666; COSCON_ACCESS_I18N=en-US; Hm_lpvt_3dc23c86163f0d1cd70ef10ea94e0263=1727767507; Hm_lvt_3dc23c86163f0d1cd70ef10ea94e0263=1727767507; HMF_CI=61b164ed6605b47707dd3738611b7a56f7d0671f664640e53c09b397e0b4d1303a795c6ccc2c63f556264a260f9acab2088eec635ec434a472eb050dacbc23c001"
+}
